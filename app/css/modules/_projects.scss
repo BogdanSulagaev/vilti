@@ -1,0 +1,50 @@
+/*projects*/
+.projects {
+	.head-content {
+		margin-bottom: calc(var(--padding-medium) - 20px);
+		position: relative;
+	}
+	.projects__head-img {
+		position: absolute;
+		top: 30px;
+		left: 0;
+
+		img {
+			max-height: 100%;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.projects .projects__head-img {
+		height: 55px;
+	}
+}
+@media (max-width: 1440px) {
+	.projects .projects__head-img {
+		top: 20px;
+	}
+}
+@media (max-width: 1199px) {
+	.projects .head-content {
+		margin-bottom: calc(var(--padding-medium) - 10px);
+	}
+}
+@media (max-width: 991px) {
+	.projects .projects__head-img {
+		top: 15px;
+		height: 35px;
+	}
+}
+@media (max-width: 479px) {
+	.projects .projects__head-img {
+		left: -73px;
+		top: 10px;
+		height: 47px;
+	}
+	.projects .head-content {
+		margin-bottom: 30px;
+	}
+	.projects .head-content .title {
+		max-width: 320px;
+	}
+}

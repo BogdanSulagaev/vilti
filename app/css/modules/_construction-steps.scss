@@ -1,0 +1,129 @@
+/*construction-steps*/
+.construction-steps {
+	.construction-steps__content {
+		display: flex;
+		flex-direction: column;
+		gap: calc(var(--padding-medium) - 20px);
+	}
+	.construction-steps__grid {
+		display: flex;
+		align-items: flex-start;
+		gap: 40px;
+	}
+	.construction-steps__column {
+		width: calc(100% - 460px);
+	}
+	.construction-steps__list {
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.construction-steps__form {
+		background: #F8F8F8;
+		border: 1px solid #DDDFE0;
+		border-radius: 4px;
+		width: 420px;
+		padding: 65px 34px;
+		position: sticky;
+		top: 145px;
+		right: 0;
+	}
+	.form .form__button {
+		width: 100%;
+	}
+	.construction-steps__button {
+		display: none;
+	}
+}
+@media (max-width: 1600px) {
+	.construction-steps .construction-steps__form {
+		padding: 50px 20px;
+		width: 380px;
+		top: 120px;
+	}
+	.construction-steps .construction-steps__grid {
+		gap: 30px;
+	}
+	.construction-steps .construction-steps__column {
+    width: calc(100% - 410px);
+	}
+}
+@media (max-width: 1440px) {
+	.construction-steps .construction-steps__content {
+		gap: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.construction-steps .construction-steps__grid {
+		gap: 15px;
+		flex-direction: column;
+	}
+	.construction-steps .construction-steps__column {
+		width: 100%;
+	}
+	.construction-steps .construction-steps__form {
+		width: 100%;
+		padding: 30px 15px;
+		position: relative;
+		top: auto;
+	}
+	.construction-steps .form__content .form__content-text {
+		max-width: 460px;
+	}
+	.construction-steps .form__content .form__content-text br {
+		display: none;
+	}
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	.construction-steps .construction-steps__form .form .form__row.form__row--2 > * {
+		width: calc(33.33% - 7px);
+	}
+}
+@media (max-width: 767px) {
+	.construction-steps .construction-steps__list {
+		max-height: 800px;
+		overflow: hidden;
+		-webkit-transition: max-height 0.6s ease;
+		-o-transition: max-height 0.6s ease;
+		transition: max-height 0.6s ease;
+		position: relative;
+		gap: 10px;
+		flex-direction: initial;
+		flex-wrap: wrap;
+		position: relative;
+	}
+	.construction-steps .construction-steps__list.expanded {
+		max-height: 100%;
+	}
+	.construction-steps .construction-steps__list.expanded + .construction-steps__button::before {
+		height: 0;
+	}
+	.construction-steps .construction-steps__button {
+		display: inline-flex;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		&::before {
+			content: "";
+			height: 180px;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 74.58%);
+			transition: .3s;
+		}
+
+		.button.button--outline {
+			width: 100%;
+		}
+	}
+	.construction-steps .construction-steps__grid {
+		gap: 20px;
+	}
+	.construction-steps .construction-steps__column {
+		position: relative;
+	}
+}

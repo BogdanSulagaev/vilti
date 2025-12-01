@@ -1,0 +1,108 @@
+/*materials*/
+.materials {
+	.head-content {
+		gap: calc(var(--padding-medium) - 20px);
+	}
+	.materials__gallery {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		margin-top: 40px;
+	}
+	.materials__gallery-img {
+		height: 300px;
+		width: calc((100% - 30px) / 4);
+		overflow: hidden;
+		transition: .3s;
+
+		&:hover {
+			opacity: .8;
+		}
+	}
+	.materials__logos {
+		background: #F8F8F8;
+		border-radius: 4px;
+		padding: 0 30px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 10px;
+	}
+	.materials__logos-img {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+    mix-blend-mode: multiply;
+    max-height: 100%;
+
+    img {
+    	max-height: 100%;
+    }
+	}
+}
+@media (max-width: 1600px) {
+	.materials .materials__gallery-img {
+		height: 250px;
+	}
+	.materials .materials__logos {
+		padding: 10px 20px;
+	}
+	.materials .materials__logos-img {
+		height: 70px;
+	}
+}
+@media (max-width: 1440px) {
+	.materials .head-content {
+		gap: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.materials .materials__gallery-img {
+		height: 200px;
+	}
+	.materials .materials__logos-img {
+		height: 50px;
+		max-width: 120px;
+	}
+}
+@media (max-width: 767px) {
+	.materials .materials__gallery-img {
+		height: 200px;
+		width: calc((100% - 10px) / 2);
+	}
+	.materials .subtitle br {
+		display: none;
+	}
+	.materials .materials__logos {
+		column-gap: 30px;
+		row-gap: 15px;
+		align-items: center;
+		justify-content: center;
+	}
+}
+@media (max-width: 479px) {
+	.materials .materials__gallery {
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-top: 30px;
+		gap: 5px;
+	}
+	.materials .materials__gallery-img {
+		height: 170px;
+		width: calc((100% - 5px) / 2);
+	}
+	.materials .materials__logos {
+		align-items: flex-start;
+		justify-content: flex-start;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-top: 5px;
+		padding: 10px;
+		gap: 15px;
+	}
+	.materials .materials__logos-img {
+		width: calc((100% - 30px) / 3);
+		height: 40px;
+	}
+}

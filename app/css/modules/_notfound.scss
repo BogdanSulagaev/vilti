@@ -1,0 +1,74 @@
+/*notfound*/
+.notfound {
+	.head-content {
+		align-items: center;
+		text-align: center;
+		position: relative;
+		gap: calc(var(--padding-medium) - 20px);
+	}
+	.notfound__image {
+		max-width: 750px;
+		width: 47vw;
+		margin: 0 auto calc(var(--padding-small) - 10px);
+	}
+	.notfound__img {
+		position: absolute;
+		top: 2px;
+		left: 43.5%;
+		transform: translateX(-50%);
+
+		img {
+			max-height: 100%;
+		}
+	}
+	.button--primary {
+		min-width: 260px;
+	}
+}
+@media (max-width: 1600px) {
+	.notfound {
+		.button--primary {
+			min-width: 230px;
+		}
+		.notfound__img {
+			height: 52px;
+		}
+	}
+}
+@media (max-width: 1440px) {
+	.notfound .notfound__img {
+		height: 47px;
+	}
+}
+@media (max-width: 1199px) {
+	.notfound .notfound__img {
+		height: 37px;
+	}
+}
+@media (max-width: 991px) {
+	.notfound .notfound__img {
+		height: 32px;
+		top: -2px;
+	}
+}
+@media (max-width: 767px) {
+	.notfound .head-content .title br {
+		display: none;
+	}
+	.notfound .notfound__img {
+		left: 15px;
+		transform: translateX(0);
+	}
+}
+@media (max-width: 479px) {
+	.notfound .notfound__image {
+		max-width: 360px;
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.notfound .notfound__img {
+		height: 47px;
+		top: -22px;
+		left: 12px;
+	}
+}

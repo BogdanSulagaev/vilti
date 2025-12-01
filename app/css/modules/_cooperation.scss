@@ -1,0 +1,127 @@
+/*cooperation*/
+.cooperation {
+	.head-content {
+		margin-bottom: calc(var(--padding-small) - 10px);
+	}
+	.cooperation__content {
+		display: flex;
+		flex-direction: column;
+		gap: var(--padding-medium);
+		position: relative;
+		z-index: 13;
+	}
+	.cooperation__quote {
+		text-align: right;
+		display: flex;
+		flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+	}
+	.cooperation__quote-label {
+		font-size: 14px;
+		line-height: 120%;
+		color: #919191;
+		text-align: left;
+	}
+	.cooperation__quote-text {
+		font-size: 26px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+	}
+	.cooperation__gallery {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px;
+	}
+	.cooperation__gallery-img {
+		background: #E5E9EA;
+		border-radius: 4px;
+		overflow: hidden;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: calc((100% - 40px) / 9);
+		height: 230px;
+
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			-o-object-fit: cover;
+			object-fit: cover;
+			-webkit-transition: 1.5s;
+			-o-transition: 1.5s;
+			transition: 1.5s;
+		}
+		&:hover {
+			img {
+				transform: scale(1.05);
+			}
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.cooperation .cooperation__gallery-img {
+		height: 190px;
+	}
+	.cooperation .cooperation__quote-label {
+		font-size: 12px;
+	}
+	.cooperation .cooperation__quote-text {
+		font-size: 22px;
+		gap: 20px;
+	}
+}
+@media (max-width: 1440px) {
+	.cooperation .cooperation__quote-text {
+		font-size: 18px;
+	}
+	.cooperation .cooperation__gallery-img {
+		height: 160px;
+	}
+}
+@media (max-width: 1199px) {
+	.cooperation .cooperation__quote-text {
+		font-size: 16px;
+	}
+}
+@media (max-width: 991px) {
+	.cooperation .cooperation__quote-text br {
+		display: none;
+	}
+	.cooperation .cooperation__gallery-img {
+  	width: calc((100% - 25px) / 6);
+	}
+}
+@media (max-width: 767px) {
+	.cooperation .cooperation__quote-text .button.button--primary {
+		display: none;
+	}
+	.cooperation .cooperation__gallery-img {
+  	width: calc((100% - 15px) / 4);
+	}
+	.cooperation .head-content {
+		margin-bottom: var(--padding-small);
+	}
+	.cooperation .cooperation__content {
+		gap: var(--padding-small);
+	}
+}
+@media (max-width: 479px) {
+	.cooperation .cooperation__quote {
+		gap: 15px;
+	}
+	.cooperation .cooperation__quote-label {
+		font-size: 13px;
+	}
+	.cooperation .cooperation__quote-text {
+		font-size: 14px;
+	}
+	.cooperation .cooperation__gallery-img {
+		height: 120px;
+	}
+}

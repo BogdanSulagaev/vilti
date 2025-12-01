@@ -1,0 +1,115 @@
+/*documents-list*/
+.documents-list {
+	display: flex;
+	flex-direction: column;
+	gap: calc(var(--padding-small) - 10px);
+
+	.documents-list__grid {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 60px;
+	}
+	.documents-list__item {
+		width: calc((100% - 120px) / 3);
+		padding-bottom: 15px;
+		position: relative;
+		border-bottom: 1px solid #E7E7E7;
+    transition: 0.5s;
+
+		&:hover {
+			border-color: var(--orange);
+
+			.documents-list__content {
+				color: var(--orange);
+			}
+		}
+	}
+	.documents-list__content {
+		min-height: 38px;
+		display: flex;
+		align-items: center;
+		text-align: left;
+		padding-right: 50px;
+		transition: 0.5s;
+		font-size: 16px;
+
+		&::after {
+			content: "";
+			width: 38px;
+			height: 38px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			background: url(../img/icons/pdf.svg) no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.documents-list .documents-list__grid {
+		gap: 40px;
+	}
+	.documents-list .documents-list__content {
+		font-size: 14px;
+		min-height: 32px;
+	}
+	.documents-list .documents-list__content::after {
+		width: 32px;
+		height: 32px;
+	}
+	.documents-list .documents-list__item {
+    width: calc((100% - 80px) / 3);
+	}
+}
+@media (max-width: 1440px) {
+	.documents-list .documents-list__grid {
+		gap: 30px;
+	}
+	.documents-list .documents-list__item {
+    width: calc((100% - 60px) / 3);
+	}
+}
+@media (max-width: 1199px) {
+	.documents-list .documents-list__content {
+		padding-right: 40px;
+	}
+}
+@media (max-width: 991px) {
+	.documents-list .documents-list__item {
+    width: calc((100% - 30px) / 2);
+	}
+}
+@media (max-width: 767px) {
+	.documents-list .documents-list__grid {
+		gap: 0;
+	}
+	.documents-list .documents-list__item {
+		width: 100%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		min-height: 48px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+    align-items: flex-start;
+	}
+	.documents-list .documents-list__content::after {
+		top: 50%;
+		transform: translateY(-50%);
+		width: 28px;
+		height: 28px;
+	}
+	.documents-list .documents-list__content {
+		display: -webkit-box;
+	  -webkit-line-clamp: 1;
+	  -webkit-box-orient: vertical;
+	  overflow: hidden;
+	  min-height: auto;
+	}
+}
+@media (max-width: 479px) {
+	.documents-list {
+		gap: 30px;
+	}
+}

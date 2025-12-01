@@ -1,0 +1,23 @@
+/*documents*/
+.documents {
+	.head-content {
+		gap: calc(var(--padding-medium) - 20px);
+		margin-bottom: calc(var(--padding-medium) - 20px);
+	}
+	.documents__main {
+		display: flex;
+		flex-direction: column;
+		gap: var(--padding-medium);
+	}	
+}
+@media (max-width: 1440px) {
+	.documents .head-content {
+		gap: 30px;
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 479px) {
+	.documents .head-content .subtitle {
+		max-width: 280px;
+	}
+}

@@ -1,0 +1,300 @@
+/*residence-card*/
+.residence-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 15px;
+	position: relative;
+
+	.residence-card__link {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 12;
+	}
+	.residence-card__image {
+		width: 100%;
+		height: 446px;
+		overflow: hidden;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		border-radius: 2px;
+
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+			transition: 1.5s;
+		}
+		video {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+		&::after {
+			content: "";
+			position: absolute;
+			top: 20px;
+			right: 40px;
+			width: 21px;
+			height: 21px;
+			background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.5312 0C11.1773 0.000107961 11.7011 0.523816 11.7012 1.16992V9.36133H19.8916C20.5378 9.36133 21.0625 9.88501 21.0625 10.5312C21.0624 11.1774 20.5378 11.7012 19.8916 11.7012H11.7012V19.8916C11.7012 20.5378 11.1774 21.0624 10.5312 21.0625C9.88501 21.0625 9.36133 20.5378 9.36133 19.8916V11.7012H1.16992C0.52384 11.7011 9.70853e-05 11.1773 0 10.5312C2.82449e-08 9.88508 0.52378 9.36144 1.16992 9.36133H9.36133V1.16992C9.3614 0.523749 9.88506 0 10.5312 0Z' fill='white'/%3E%3C/svg%3E%0A");
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: center;
+			z-index: 12;
+			transition: .3s;
+		}
+		&::before {
+			content: "";
+			background: rgba(0,0,0,.3);
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			border-radius: inherit;
+			opacity: 0;
+			transition: .5s;
+			z-index: 1;
+		}
+	}
+	.residence-card__details {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 5px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			li {
+				background: #F3F3F3;
+				border-radius: 4px;
+				height: 23px;
+				padding: 0 6px;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				color: #000;
+    		font-weight: 600;
+    		font-size: 16px;
+			}
+		}
+	}
+	.residence-card__content {
+		display: flex;
+		align-items: flex-start;
+		gap: 66px;
+		width: calc(100% - 195px);
+	}
+	.residence-card__btn {
+		width: 180px;
+
+		.button--primary {
+			width: 100%;
+			z-index: 13;
+		}
+	}
+	.residence-card__info {
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+	}
+	.residence-card__title {
+		font-family: var(--font-second);
+		font-weight: 600;
+		color: #000;
+		font-size: 24px;
+		line-height: 110%;
+		width: 100%;
+
+		sup {
+			line-height: 50%;
+		}
+	}
+	.residence-card__floors {
+		background: #F8F8F8;
+		border: 1px solid #DDDFE0;
+		border-radius: 4px;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 16px;
+		font-weight: 600;
+		color: #000;
+		padding: 1px 6px;
+	}
+	.residence-card__price {
+		font-size: 16px;
+		line-height: 110%;
+	}
+	&:hover {
+		.residence-card__image::after {
+			background-image: url("data:image/svg+xml,%3Csvg width='22' height='22' viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M10.5312 0C11.1773 0.000107961 11.7011 0.523816 11.7012 1.16992V9.36133H19.8916C20.5378 9.36133 21.0625 9.88501 21.0625 10.5312C21.0624 11.1774 20.5378 11.7012 19.8916 11.7012H11.7012V19.8916C11.7012 20.5378 11.1774 21.0624 10.5312 21.0625C9.88501 21.0625 9.36133 20.5378 9.36133 19.8916V11.7012H1.16992C0.52384 11.7011 9.70853e-05 11.1773 0 10.5312C2.82449e-08 9.88508 0.52378 9.36144 1.16992 9.36133H9.36133V1.16992C9.3614 0.523749 9.88506 0 10.5312 0Z' fill='%23FF6930'/%3E%3C/svg%3E%0A");
+		}
+		.residence-card__image::before {
+			opacity: 1;
+		}
+		.residence-card__image img {
+			transform: scale(1.02); 
+		}  
+	}
+}
+@media (max-width: 1600px) {
+	.residence-card .residence-card__image {
+		height: 310px;
+	}
+	.residence-card .residence-card__title {
+		font-size: 20px;
+	}
+	.residence-card .residence-card__floors {
+		font-size: 14px;
+	}
+	.residence-card .residence-card__price {
+		font-size: 14px;
+	}
+	.residence-card .residence-card__image::after {
+		right: 20px;
+	}
+	.residence-card .residence-card__details {
+		right: 60px;
+	}
+	.residence-card .residence-card__details ul li {
+		font-size: 14px;
+	}
+	.residence-card .residence-card__content {
+		gap: 46px;
+	}
+}
+@media (max-width: 1440px) {
+	.residence-card .residence-card__content {
+		gap: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.residence-card .residence-card__image {
+		height: 260px;
+	}
+	
+	// .residence-card .residence-card__content .residence-card__info {
+	// 	width: 100%;
+	// 	justify-content: space-between;
+	// 	align-items: flex-start;
+	// }
+	
+	
+	.residence-card .residence-card__details {
+		top: 15px;
+		left: 15px;
+	}
+	.residence-card .residence-card__details ul li {
+		font-size: 13px;
+	}
+}
+@media (max-width: 1199px) and (min-width: 480px) {
+	.residence-card .residence-card__content {
+		width: 100%;
+		flex-direction: column;
+	}
+	.residence-card .residence-card__content .residence-card__info {
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+	}
+	.residence-card .residence-card__content {
+		gap: 10px;
+	}
+	.residence-card .residence-card__btn {
+		width: 100%;
+
+		.button--primary {
+			width: auto;
+		}
+	}
+	.residence-card .residence-card__title {
+		font-size: 18px;
+		width: calc(100% - 165px);
+	}
+	.residence-card .residence-card__price {
+		width: 150px;
+		text-align: right;
+	}
+}
+@media (max-width: 991px) {
+	.residence-card .residence-card__image {
+		height: 200px;
+	}
+	.residence-card .residence-card__details {
+		top: 10px;
+		left: 10px;
+	}
+	.residence-card .residence-card__details ul li {
+		font-size: 12px;
+	}
+}
+@media (max-width: 767px) {
+	.residence-card .residence-card__image::after {
+		top: 10px;
+		right: 10px;
+		width: 15px;
+		height: 15px;
+	}
+	.residence-card .residence-card__details {
+		right: 40px;
+	}
+}
+@media (max-width: 479px) {
+	.residence-card {
+		gap: 5px;
+	}
+	.residence-card .residence-card__details {
+		margin-bottom: 10px;
+	}
+	.residence-card .residence-card__image {
+		width: auto;
+		margin: 0 -10px;
+		border-radius: 0;
+	}
+	.residence-card .residence-card__title {
+		font-size: 16px;
+
+		span {
+			display: none;
+		}
+	}
+	.residence-card .residence-card__price {
+		span {
+			display: none;
+		}
+	}
+	.residence-card .residence-card__floors {
+		font-size: 12px;
+	}
+	.residence-card .residence-card__content {
+    width: calc(100% - 125px);
+	}
+	.residence-card .residence-card__info {
+		gap: 5px;
+	}
+	.residence-card .residence-card__btn .button--primary {
+		padding: 0 12px;
+	}
+	.residence-card .residence-card__btn .button--primary img {
+		display: none;
+	}
+	.residence-card .residence-card__btn {
+    width: auto;
+	}
+}
+@media (max-width: 369px) {
+	.residence-card .residence-card__content {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}

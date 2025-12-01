@@ -1,0 +1,19 @@
+/*build-stat*/
+.build-stat {
+	.stats {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.stats__item {
+		width: calc((100% - 30px) / 3);
+	}
+}
+@media (max-width: 767px) {
+	.build-stat .stats__item {
+		width: 100%;
+	}
+	.build-stat .stats {
+		gap: 10px;
+	}
+}

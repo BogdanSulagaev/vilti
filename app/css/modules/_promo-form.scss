@@ -1,0 +1,172 @@
+/*promo-form*/
+.promo-form {
+	.promo-form__content {
+		background: #FDFDFD;
+		border: 1px solid #DDDFE0;
+		border-radius: 4px;
+		position: relative;
+		display: flex;
+		padding-bottom: 300px;
+		overflow: hidden;
+	}
+	.promo-form__image {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 2;
+
+		&::before {
+			content: "";
+			background: linear-gradient(to bottom, #FDFDFD, transparent);
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			height: 10%;
+		}
+	}
+	.promo-form__main {
+		width: 50%;
+		padding: 65px 34px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.promo-form__form {
+		width: 50%;
+		padding: 65px 34px;
+		border-left: 1px solid #DDDFE0;
+		position: relative;
+		z-index: 12;
+	}
+	.promo-form__img {
+		position: absolute;
+		top: 0;
+		left: 520px;
+		z-index: 3;
+
+		img {
+			max-height: 100%;
+		}
+	}
+	&.promo-form--partners {
+		.promo-form__img {
+			left: 0;
+		}
+	}
+	&.promo-form--reviews {
+			.promo-form__img {
+			left: 0;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.promo-form .promo-form__form {
+		padding: 50px 20px;
+	}
+	.promo-form .promo-form__main {
+		padding: 50px 20px;
+		gap: 15px;
+	}
+	.promo-form .promo-form__content {
+		padding-bottom: 250px;
+	}
+	.promo-form .promo-form__img {
+		height: 80px;
+		left: 425px;
+	}
+}
+@media (max-width: 1440px) {
+	.promo-form .promo-form__content {
+		padding-bottom: 210px;
+	}
+}
+@media (max-width: 1199px) {
+	.promo-form .promo-form__main {
+		padding: 30px 15px;
+		width: 45%;
+	}
+	.promo-form .promo-form__form {
+		padding: 30px 15px;
+		width: 55%;
+	}
+	.promo-form .section__title {
+		max-width: 300px;
+	}
+	.promo-form .promo-form__img  {
+		left: 202px;
+    top: -17px;
+    height: 75px;
+	}
+}
+@media (max-width: 991px) {
+	.promo-form .promo-form__main {
+		width: 100%;
+		position: relative;
+    background: #FDFDFD;
+    border: 1px solid #DDDFE0;
+    border-radius: 4px;
+    overflow: hidden;
+    min-height: 300px;
+	}
+	.promo-form .promo-form__content {
+		flex-direction: column;
+		border: none;
+		padding: 0;
+		background: transparent;
+	}
+	.promo-form .form__content-heading {
+		max-width: 600px;
+		flex-direction: column;
+		background: transparent;
+		border: none;
+		border-radius: 0;
+		padding: 0;
+	}
+	.promo-form .promo-form__image {
+		z-index: 1;
+	}
+	.promo-form .promo-form__form {
+		width: 100%;
+		padding: 30px 15px 0;
+		border: none;		
+	}
+}
+@media (max-width: 767px) {
+	.promo-form .promo-form__main {
+		min-height: 260px;
+		text-align: center;
+    align-items: center;
+	}
+	.promo-form .promo-form__img {
+		left: 69%;
+		transform: translateX(-50%);
+	}
+	.promo-form.promo-form--partners .promo-form__img {
+    left: 28%;
+	}
+	.promo-form.promo-form--reviews .promo-form__img {
+    left: 28%;
+	}
+}
+@media (max-width: 479px) {
+	.promo-form .container {
+		padding: 0;
+	}
+	.promo-form .section__title {
+		max-width: 300px;
+	}
+	.promo-form .subtitle {
+		max-width: 260px;
+	}
+	.promo-form .promo-form__main {
+		min-height: 240px;
+	}
+	.promo-form .promo-form__img {
+		left: 79%;
+	}
+	.promo-form .promo-form__form {
+		padding: 30px 10px 0;
+	}
+}
