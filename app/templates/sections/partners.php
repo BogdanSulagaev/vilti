@@ -7,12 +7,12 @@
                 <div class="subtitle">Мы&nbsp;ищем партнеров, которые разделяют наше понимание качества и&nbsp;ответственности</div>
             </div>
             <div class="partners__grid">
-                <div class="partners__item partners__item--1 fade-in-up">
-                    <div class="partners__item-img">
+                <div class="info-card info-card--1 fade-in-up info-card--large">
+                    <div class="info-card__img">
                         <img class="lazyload" src="img/default.png" data-src="img/partners/mark1.svg" alt="icon">
                     </div>
-                    <div class="partners__item-title">Архитекторы и&nbsp;проектировщики</div>
-                    <div class="partners__item-text">
+                    <div class="info-card__title">Архитекторы и&nbsp;проектировщики</div>
+                    <div class="info-card__text">
                         <p>Совместная работа над уникальными проектами. <br>Ваше авторское видение воплощаем в&nbsp;камне с&nbsp;безупречным качеством исполнения.</p>
                         <ul>
                             <li>Агентское вознаграждение {3-5}% от&nbsp;стоимости строительства </li>
@@ -23,12 +23,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="partners__item partners__item--2 fade-in-up">
-                    <div class="partners__item-img">
+                <div class="info-card info-card--2 fade-in-up info-card--large">
+                    <div class="info-card__img">
                         <img class="lazyload" src="img/default.png" data-src="img/partners/mark2.svg" alt="icon">
                     </div>
-                    <div class="partners__item-title">Дизайнеры интерьеров</div>
-                    <div class="partners__item-text">
+                    <div class="info-card__title">Дизайнеры интерьеров</div>
+                    <div class="info-card__text">
                         <p>Интеграция дизайн-проекта в&nbsp;процесс строительства. Создаём пространства, где архитектура и&nbsp;интерьер существуют в&nbsp;гармонии.</p>
                         <ul>
                             <li>Реферальное вознаграждение за&nbsp;привлеченных клиентов </li>
@@ -39,12 +39,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="partners__item partners__item--3 fade-in-up">
-                    <div class="partners__item-img">
+                <div class="info-card info-card--3 fade-in-up info-card--large">
+                    <div class="info-card__img">
                         <img class="lazyload" src="img/default.png" data-src="img/partners/mark3.svg" alt="icon">
                     </div>
-                    <div class="partners__item-title">Девелоперы и&nbsp;инвесторы</div>
-                    <div class="partners__item-text">
+                    <div class="info-card__title">Девелоперы и&nbsp;инвесторы</div>
+                    <div class="info-card__text">
                         <p>Стратегическое партнерство в&nbsp;развитии премиальных проектов. От&nbsp;концепции до&nbsp;реализации масштабных решений.</p>
                         <ul>
                             <li>Долгосрочные контракты на&nbsp;выгодных условиях </li>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="partners__button fade-in">
+            <div class="partners__button fade-in" data-toggle="modal" data-target="#modal_consultation">
                 <button class="button button--primary"><span class="button__text">Обсудить сотрудничество</span><img class="lazyload" src="img/default.png" data-src="img/icons/arrow-white.svg" alt="img"></button>
             </div>
         </div>

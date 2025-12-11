@@ -60,7 +60,7 @@
             ?>
 
             <div class="residences__button fade-in">
-                <button class="button button--outline">Смотреть все проекты</button>
+                <a href="./projects.php" class="button button--outline">Смотреть все проекты</a>
             </div>
         </div>
     </div>

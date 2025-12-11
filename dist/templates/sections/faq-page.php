@@ -1,40 +1,4 @@
-<?php
-$faq = [
-    [
-        "question" => "Что отличает Vilti Manor от других застройщиков?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "Сколько времени занимает строительство резиденции?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "В каких регионах вы работаете?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "Предоставляете ли вы гарантии на выполненные работы?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "Работаете ли вы по договору ГП/генподряда?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "Какие гарантии вы даете?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "Можно ли привлечь своего архитектора/дизайнера?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-    [
-        "question" => "Как происходит оплата этапов?",
-        "answer" => "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and morerecently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Oonly five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the releasem.",
-    ],
-];
-?>
-
+<!-- faq -->
 <section class="faq faq--page">
     <div class="container">
         <nav class="breadcrumbs fade-in" aria-label="Breadcrumb" role="navigation" itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -55,7 +19,7 @@ $faq = [
         </nav>
         <div class="faq__content">
             <div class="head-content fade-in-up">
-                <h2 class="title title--h2">Часто задаваемые вопросы</h2>
+                <h1 class="title title--h2">Часто задаваемые вопросы</h1>
             </div>
             <div class="categories fade-in-up">
                 <div class="categories__scroll fade-in">Выберите раздел <img class="lazyload" src="img/default.png" data-src="img/gif.gif" alt="img"></div>
@@ -67,17 +31,123 @@ $faq = [
                     <button class="categories__item" type="button">Правовые</button>
                 </div>
             </div>
-            <div class="faq__grid">
-                <?php foreach ($faq as $item): ?>
-                    <div class="faq__item fade-in-up">
-                        <button class="faq__question" type="button" aria-expanded="false">
-                            <?= $item["question"] ?>
-                        </button>
-                        <div class="faq__answer">
-                            <p><?= $item["answer"] ?></p>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
+            <div class="faq__panel is-active">
+                <div class="faq__grid">
+                    <?php
+                    $faq_id = 1;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 2;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 3;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 4;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 5;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 6;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 7;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 8;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 9;
+                    include('templates/components/faq-item.php'); 
+                    ?>
+                </div>
+            </div>
+            <div class="faq__panel">
+                <div class="faq__grid">
+                    <?php
+                    $faq_id = 2;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 3;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 4;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 5;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 6;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 7;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 8;
+                    include('templates/components/faq-item.php'); 
+                    ?>
+                </div>
+            </div>
+            <div class="faq__panel">
+                <div class="faq__grid">
+                    <?php
+                    $faq_id = 3;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 4;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 5;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 6;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 7;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 8;
+                    include('templates/components/faq-item.php'); 
+                    ?>
+                </div>
+            </div>
+            <div class="faq__panel">
+                <div class="faq__grid">
+                    <?php
+                    $faq_id = 4;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 5;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 6;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 7;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 8;
+                    include('templates/components/faq-item.php'); 
+                    ?>
+                </div>
+            </div>
+            <div class="faq__panel">
+                <div class="faq__grid">
+                    <?php
+                    $faq_id = 5;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 6;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 7;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 8;
+                    include('templates/components/faq-item.php'); 
+                    ?>
+                </div>
             </div>
             <?php 
                 $helpform_id = 2;

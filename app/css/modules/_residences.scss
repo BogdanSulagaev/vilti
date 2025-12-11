@@ -90,6 +90,9 @@
 	.residences .residences__filters {
 		margin-bottom: 20px;
 	}
+	.residences .residences__filters .filters .filter-item.select {
+		max-width: 100%;
+	}
 }
 @media (max-width: 991px) {
 	.residences .residences__quote .residences__quote-text br {

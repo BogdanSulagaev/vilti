@@ -5,13 +5,13 @@
             <nav class="breadcrumbs fade-in" aria-label="Breadcrumb" role="navigation" itemscope itemtype="https://schema.org/BreadcrumbList">
                 <ol class="breadcrumbs__list">
                     <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a class="breadcrumbs__link" href="/" itemprop="item">
+                        <a class="breadcrumbs__link" href="./" itemprop="item">
                             <span itemprop="name">Главная</span>
                         </a>
                         <meta itemprop="position" content="1" />
                     </li>
                     <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a class="breadcrumbs__link" href="/" itemprop="item">
+                        <a class="breadcrumbs__link" href="./" itemprop="item">
                             <span itemprop="name">Услуги</span>
                         </a>
                         <meta itemprop="position" content="2" />

@@ -10,6 +10,10 @@
     justify-content: flex-end;
     padding: var(--padding-medium) 0;
 	}
+	.subtitle {
+		text-transform: uppercase;
+		font-family: var(--font-second);
+	}
 	&.section-bg {
 		.section-bg__overlay {
 			background: linear-gradient(180deg, rgba(9, 9, 11, 0.3) 10.19%, rgba(9, 9, 11, 0) 54.41%, rgba(9, 9, 11, 0.53) 68.56%, rgba(9, 9, 11, 0.8) 100%);

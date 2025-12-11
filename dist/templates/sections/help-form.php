@@ -22,13 +22,13 @@ $helpform = $helpform[$helpform_id]; ?>
         </div>
         <h2 class="section__title title--h2"><?=$helpform['title']?></h2>
         <p class="subtitle"><?=$helpform['subtitle']?></p>
-        <button class="button button--primary"><span class="button__text"><?=$helpform['button']?></span></button>
+        <button class="button button--primary" data-toggle="modal" data-target="#modal_consultation"><span class="button__text"><?=$helpform['button']?></span></button>
     </div>
     <div class="help-form__image fade-in-up">
         <picture>
             <source srcset="img/default.png" data-srcset="img/help-form/bg.webp 1x, img/help-form/bg@2x.webp 2x" type="image/webp">
-            <source srcset="img/default.png" data-srcset="img/help-form/bg.jpg 1x, img/help-form/bg@2x.jpg 2x" type="image/jpeg">
-            <img class="lazyload" src="img/default.png" data-srcset="img/help-form/bg.jpg 1x, img/help-form/bg@2x.jpg 2x" alt="img">
+            <source srcset="img/default.png" data-srcset="img/help-form/bg.png 1x, img/help-form/bg@2x.png 2x" type="image/jpeg">
+            <img class="lazyload" src="img/default.png" data-srcset="img/help-form/bg.png 1x, img/help-form/bg@2x.pgn 2x" alt="img">
         </picture>
     </div>
 </div>

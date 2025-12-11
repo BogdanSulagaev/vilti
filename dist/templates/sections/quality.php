@@ -4,9 +4,9 @@
         <div class="quality__content">
             <div class="quality__image fade-in">
                 <picture>
-                    <source srcset="img/quality/main.webp 1x, img/quality/main@2x.webp 2x" type="image/webp">
-                    <source srcset="img/quality/main.jpg 1x, img/quality/main@2x.jpg 2x" type="image/jpeg">
-                    <img class="lazyload" data-srcset="img/quality/main.jpg 1x, img/quality/main@2x.jpg 2x" alt="img">
+                    <source srcset="img/default.png" data-srcset="img/quality/main.webp 1x, img/quality/main@2x.webp 2x" type="image/webp">
+                    <source srcset="img/default.png" data-srcset="img/quality/main.jpg 1x, img/quality/main@2x.jpg 2x" type="image/jpeg">
+                    <img class="lazyload" src="img/default.png" data-srcset="img/quality/main.jpg 1x, img/quality/main@2x.jpg 2x" alt="img">
                 </picture>
             </div>
             <div class="quality__columns">
@@ -26,7 +26,7 @@
                     </div>
 
                     <div class="stats__item fade-in-up">
-                        <div class="stats__value">30</div>
+                        <div class="stats__value">50</div>
                         <div class="stats__label">Лет гарантии</div>
                     </div>
 

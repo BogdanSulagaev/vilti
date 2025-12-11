@@ -1,0 +1,241 @@
+/*architecture-approach*/
+.architecture-approach {
+	.architecture-approach__content {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	.head-content {
+    gap: calc(var(--padding-medium) - 10px);
+	}
+	.architecture-approach__grid {
+		display: flex;
+		gap: 15px;
+	}
+	.architecture-approach__item {
+		width: calc((100% - 30px) / 3);
+		border-radius: 4px;
+		overflow: hidden;
+		height: 280px;
+
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+	}
+	.architecture-approach__details {
+		position: relative;
+	}
+	.architecture-approach__media {
+		height: 860px;
+    border-radius: 4px;
+    overflow: hidden;
+
+		video {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+	    border-radius: inherit;
+		}
+	}
+	.architecture-approach__expert {
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		background: #fff;
+		border-radius: 4px;
+		padding: 20px;
+		max-width: 390px;
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+	.architecture-approach__img {
+		width: 100%;
+		height: 326px;
+		overflow: hidden;
+		border-radius: 2px;
+		background: #E5E9EA;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+	}
+	.architecture-approach__badge {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		height: 130px;
+
+		img {
+			height: 100%;
+		}
+	}
+	.architecture-approach__name {
+		font-size: 24px;
+		line-height: 110%;
+		font-weight: 600;
+		font-family: var(--font-second);
+		color: #000;
+		position: absolute;
+		top: 115px;
+		left: 50px;
+		right: 50px;
+		z-index: 12;
+	}
+	.architecture-approach__descr {
+		font-size: 24px;
+		line-height: 110%;
+		font-family: var(--font-second);
+		color: #000;
+    letter-spacing: -0.02em;
+	}
+}
+@media (max-width: 1600px) {
+	.architecture-approach .architecture-approach__item {
+		height: 230px;
+	}
+	.architecture-approach__media {
+		height: 760px;
+	}
+	.architecture-approach .architecture-approach__expert {
+		gap: 20px;
+		max-width: 330px;
+	}
+	.architecture-approach .architecture-approach__img {
+		height: 280px;
+	}
+	.architecture-approach .architecture-approach__name {
+		font-size: 20px;
+		top: 95px;
+		left: 40px;
+		right: 40px;
+	}
+	.architecture-approach .architecture-approach__badge {
+		height: 105px;
+	}
+	.architecture-approach .architecture-approach__descr {
+		font-size: 20px;
+	}
+}
+@media (max-width: 1440px) {
+	.architecture-approach .head-content {
+		gap: 30px
+	}
+	.architecture-approach .architecture-approach__content {
+		gap: 30px;
+	}
+	.architecture-approach .architecture-approach__item {
+		height: 200px;
+	}
+	.architecture-approach .architecture-approach__media {
+		height: 660px;
+	}
+	.architecture-approach .architecture-approach__descr {
+		font-size: 18px;
+	}
+	.architecture-approach .architecture-approach__expert {
+		max-width: 300px;
+		bottom: 15px;
+		left: 15px;
+		padding: 15px;
+	}
+	.architecture-approach .architecture-approach__img {
+		height: 240px;
+	}
+	.architecture-approach .architecture-approach__badge {
+		top: 15px;
+		left: 15px;
+	}
+}
+@media (max-width: 1199px) {
+	.architecture-approach .architecture-approach__item {
+		height: 180px;
+	}
+	.architecture-approach .subtitle br {
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+	.architecture-approach .architecture-approach__item {
+		height: 130px;
+	}
+	.architecture-approach .architecture-approach__media {
+		height: 560px;
+	}
+	.architecture-approach .architecture-approach__descr {
+		font-size: 16px;
+	}
+	.architecture-approach .architecture-approach__expert {
+		max-width: 260px;
+		padding: 10px;
+	}
+	.architecture-approach .architecture-approach__img {
+		height: 200px;
+	}
+	.architecture-approach .architecture-approach__badge {
+		top: 10px;
+		left: 10px;
+		height: 87px;
+	}
+	.architecture-approach .architecture-approach__name {
+		font-size: 16px;
+		top: 75px;
+		left: 30px;
+		right: 30px;
+	}
+}
+@media (max-width: 767px) {
+	.architecture-approach .architecture-approach__grid {
+		gap: 4px;
+	}
+	.architecture-approach .architecture-approach__item {
+		height: 100px;
+		width: calc((100% - 8px) / 3);
+	}
+	.architecture-approach .architecture-approach__media {
+		height: 300px;
+	}
+	.architecture-approach .architecture-approach__expert {
+		position: relative;
+		bottom: auto;
+		left: auto;
+		padding: 0;
+		margin-top: 10px;
+		max-width: 100%;
+	}
+	.architecture-approach .architecture-approach__img {
+		max-width: 360px;
+		height: 330px;
+	}
+	.architecture-approach .architecture-approach__badge {
+		top: 0;
+		left: 0;
+		height: 133px;
+	}
+	.architecture-approach .architecture-approach__name {
+		font-size: 24px;
+		top: 95px;
+	}
+
+}
+@media (max-width: 479px) {
+	.architecture-approach .architecture-approach__item {
+		height: 64px;
+	}
+	.architecture-approach .architecture-approach__content {
+		gap: 20px;
+	}
+	.architecture-approach .architecture-approach__media {
+		height: 190px;
+	}
+	.architecture-approach .architecture-approach__descr {
+		font-size: 14px;
+	}
+}

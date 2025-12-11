@@ -1,13 +1,13 @@
 <!-- construction-steps -->
 <section class="construction-steps">
     <div class="container">
-        <div class="construction-steps__content">
+        <div class="construction-steps__content steps--content">
             <div class="head-content fade-in-up">
                 <h2 class="title title--h2">Этапы строительства</h2>
             </div>
             <div class="construction-steps__grid">
                 <div class="construction-steps__column">
-                    <div class="construction-steps__list">
+                    <div class="construction-steps__list steps--list">
                         <div class="step fade-in-up">
                             <div class="step__left">
                                 <div class="step__img">
@@ -129,7 +129,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="construction-steps__button">
+                    <div class="construction-steps__button steps--button">
                         <button class="button button--outline">Показать все этапы</button>
                     </div>
                 </div>

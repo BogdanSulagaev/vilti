@@ -76,6 +76,9 @@
   .stats .stats__label {
     width: 50%;
   }
+  .stats .stats__label br {
+    display: none;
+  }
 }
 @media (max-width: 479px) {
 	.stats .stats__value {

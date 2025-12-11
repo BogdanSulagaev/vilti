@@ -17,6 +17,17 @@
 	.article-card {
 		width: calc((100% - 45px) / 4);
 	}
+	.articles__panel {
+		display: none;
+	}
+	.articles__panel.is-active {
+		display: block;
+
+		.fade-in-up {
+			visibility: visible !important;
+			animation-name: fadeInUp !important;
+		}
+	}
 }
 @media (max-width: 1600px) {
 	.articles .head-content {

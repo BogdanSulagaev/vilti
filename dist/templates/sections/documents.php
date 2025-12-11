@@ -5,7 +5,7 @@
             <nav class="breadcrumbs fade-in" aria-label="Breadcrumb" role="navigation" itemscope itemtype="https://schema.org/BreadcrumbList">
                 <ol class="breadcrumbs__list">
                     <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a class="breadcrumbs__link" href="/" itemprop="item">
+                        <a class="breadcrumbs__link" href="./" itemprop="item">
                             <span itemprop="name">Главная</span>
                         </a>
                         <meta itemprop="position" content="1" />
@@ -67,34 +67,191 @@
                             <button class="categories__item" type="button">Правовые</button>
                         </div>
                     </div>
-                    <div class="documents-list__grid fade-in-up">
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Политика конфиденциальности.pdf</div>
-                        </a>
-                        <a href="#" target="_blank" class="documents-list__item">
-                            <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
-                        </a>
+                    <div class="documents-list__panel is-active">
+                        <div class="documents-list__grid fade-in-up">
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Политика конфиденциальности.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="documents-list__panel">
+                        <div class="documents-list__grid fade-in-up">
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Политика конфиденциальности.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="documents-list__panel">
+                        <div class="documents-list__grid fade-in-up">
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Политика конфиденциальности.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="documents-list__panel">
+                        <div class="documents-list__grid fade-in-up">
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Политика конфиденциальности.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="documents-list__panel">
+                        <div class="documents-list__grid fade-in-up">
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Политика конфиденциальности.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="documents-list__panel">
+                        <div class="documents-list__grid fade-in-up">
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Выписка из ЕГРЮЛ.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Паспорт промышленной безопасности предприятия.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Лицензия на строительную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Сертификат ISO 9001:2015.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на проектную деятельность.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">СРО "Союз строительных компаний Москвы".pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Разрешение на выполнение инженерных изысканий.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Политика конфиденциальности.pdf</div>
+                            </a>
+                            <a href="#" target="_blank" class="documents-list__item">
+                                <div class="documents-list__content">Соглашение об обработке персональных данных.pdf</div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

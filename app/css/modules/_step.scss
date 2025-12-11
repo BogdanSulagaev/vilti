@@ -8,7 +8,7 @@
 
   .step__left {
     width: 50%;
-    padding: 65px 35px 65px 20px;
+    padding: 65px 35px 20px 20px;
     position: relative;
 
     .step__title {
@@ -26,6 +26,24 @@
     font-family: var(--font-second);
     font-weight: 600;
     margin-bottom: 30px;
+  }
+  .step__duration {
+    font-size: 16px;
+    line-height: 110%;
+    font-weight: 600;
+    margin-top: 25px;
+
+    span {
+      background: #FFDC8F;
+      padding: 0 10px;
+      height: 30px;
+      display: inline-flex;
+      align-items: center;
+      margin-left: 15px;
+    }
+  }
+  .step__link {
+    margin-top: 25px;
   }
   .step__text {
     width: 100%;
@@ -61,7 +79,7 @@
 }
 @media (max-width: 1600px) {
   .step .step__left {
-    padding: 55px 25px 55px 20px;
+    padding: 55px 25px 20px 20px;
   }
   .step .step__right {
     padding: 55px 25px;
@@ -87,10 +105,13 @@
   .step .step__left .step__title {
     padding-left: 37px;
   }
+  .step .step__duration {
+    font-size: 14px;
+  }
 }
 @media (max-width: 1440px) {
   .step .step__left {
-    padding: 35px 20px;
+    padding: 35px 20px 20px;
   }
   .step .step__right {
     padding: 35px 20px;
@@ -139,6 +160,12 @@
   .step .step__list {
     color: #666666;
     padding-left: 5px;
+  }
+  .step .step__duration {
+    margin-top: 20px;
+  }
+  .step .step__link {
+    margin-top: 20px;
   }
 }
 @media (max-width: 479px) {

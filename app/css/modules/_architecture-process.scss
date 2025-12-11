@@ -1,0 +1,169 @@
+/*architecture-process*/
+.architecture-process {
+	.architecture-process__content {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	.head-content {
+    gap: calc(var(--padding-medium) - 10px);
+	}
+	.architecture-process__grid {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.info-card {
+		width: calc((100% - 30px) / 3);
+
+		.info-card__number {
+			position: absolute;
+			left: 20px;
+			top: 65px;
+		}
+		.info-card__title {
+			margin-bottom: 130px;
+		}
+		&.info-card--2 {
+			.info-card__img {
+				right: 126px;
+			}
+		}
+		&.info-card--3 {
+			.info-card__img {
+				right: 30px;
+				top: 30px;
+			}
+		}
+		&.info-card--5 {
+			.info-card__img {
+				right: 64px;
+			}
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.architecture-process .info-card .info-card__title {
+		margin-bottom: 110px;
+	}
+	.architecture-process .info-card.info-card--1 .info-card__img {
+		height: 80px;
+	}
+	.architecture-process .info-card.info-card--2 .info-card__img {
+		right: 105px;
+		height: 105px;
+	}
+	.architecture-process .info-card.info-card--3 .info-card__img {
+		height: 80px;
+		top: 25px;
+	}
+	.architecture-process .info-card.info-card--4 .info-card__img {
+		height: 54px;
+	}
+	.architecture-process .info-card.info-card--5 .info-card__img {
+		right: 54px;
+		height: 105px;
+	}
+	.architecture-process .info-card.info-card--6 .info-card__img {
+		height: 80px;
+	}
+	.architecture-process .info-card .info-card__number {
+		top: 60px;
+		width: 30px;
+		height: 22px;
+
+		img {
+			max-height: 100%;
+		}
+	}
+}
+@media (max-width: 1440px) {
+	.architecture-process .head-content {
+		gap: 30px
+	}
+	.architecture-process .architecture-process__content {
+		gap: 30px;
+	}
+	.architecture-process .info-card .info-card__title {
+		margin-bottom: 90px;
+	}
+	.architecture-process .info-card .info-card__number {
+		top: 54px;
+		width: 24px;
+		height: 18px;
+	}
+}
+@media (max-width: 1199px) {
+	.architecture-process .info-card .info-card__title {
+		margin-bottom: 35px;
+	}
+	.architecture-process .info-card.info-card--1 .info-card__img {
+		height: 70px;
+	}
+	.architecture-process .info-card.info-card--2 .info-card__img {
+		right: 95px;
+		height: 95px;
+	}
+	.architecture-process .info-card.info-card--3 .info-card__img {
+		height: 70px;
+		top: 20px;
+	}
+	.architecture-process .info-card.info-card--4 .info-card__img {
+		height: 44px;
+	}
+	.architecture-process .info-card.info-card--5 .info-card__img {
+		right: 44px;
+		height: 95px;
+	}
+	.architecture-process .info-card.info-card--6 .info-card__img {
+		height: 70px;
+	}
+	.architecture-process .info-card .info-card__number {
+		top: 47px;
+	}
+}
+@media (max-width: 991px) {
+	.architecture-process .info-card {
+		width: calc((100% - 15px) / 2);
+	}
+	.architecture-process .subtitle br {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.architecture-process .architecture-process__grid {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.architecture-process .info-card {
+		width: 100%;
+	}
+}
+@media (max-width: 479px) {
+	.architecture-process .info-card.info-card--1 .info-card__img {
+		top: -15px;
+	}
+	.architecture-process .info-card.info-card--2 .info-card__img {
+		top: -12px;
+		right: 110px;
+	}
+	.architecture-process .info-card.info-card--3 .info-card__img {
+		top: 15px;
+		right: 15px;
+	}
+	.architecture-process .info-card.info-card--4 .info-card__img {
+		top: -20px;
+	}
+	.architecture-process .info-card.info-card--5 .info-card__img {
+		top: -12px;
+		right: 38px;
+	}
+	.architecture-process .info-card.info-card--6 .info-card__img {
+		top: -15px;
+		right: -9px;
+	}
+	.architecture-process .info-card .info-card__number {
+		left: 10px;
+		top: 35px;
+	}
+}

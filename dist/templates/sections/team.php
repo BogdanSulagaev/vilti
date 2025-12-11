@@ -4,7 +4,7 @@
         <div class="container">
             <div class="team__content">
                 <div class="head-content fade-in-up">
-                    <p class="team__subtitle subtitle">VILTI Manor&nbsp;&mdash; это архитекторы, инженеры и&nbsp;мастера, которые десятилетиями создают надёжные дома. Мы&nbsp;собрали команду с&nbsp;опытом в&nbsp;элитном домостроении: от&nbsp;бетонных узлов до&nbsp;систем smart home.</p>
+                    <div class="team__subtitle subtitle">VILTI Manor&nbsp;&mdash; это архитекторы, инженеры и&nbsp;мастера, которые десятилетиями создают надёжные дома. Мы&nbsp;собрали команду с&nbsp;опытом в&nbsp;элитном домостроении: от&nbsp;бетонных узлов до&nbsp;систем smart home.</div>
                 </div>
                 <div class="team__details fade-in-up">
                     <div class="team__img">
@@ -13,7 +13,7 @@
                     <span class="team__name">Философия</span>
                     <div class="team_inner">
                         <span class="team__desc"><strong>Инженерная честность и&nbsp;внимание к&nbsp;деталям. </strong>Поэтому визуал совпадает с&nbsp;результатом, а&nbsp;дом остаётся прочным и&nbsp;актуальным десятилетиями.</span>
-                        <a href="#" class="link">Подробнее о&nbsp;компании<span class="link__icon"></span></a> 
+                        <a href="./about.php" class="link">Подробнее о&nbsp;компании<span class="link__icon"></span></a> 
                     </div>
                 </div>
             </div>

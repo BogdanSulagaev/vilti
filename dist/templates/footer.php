@@ -11,7 +11,7 @@
                         <img class="lazyload main" src="img/default.png" data-src="img/icons/search.svg" alt="Search">
                         <img class="lazyload letter" src="img/default.png" data-src="img/icons/s.svg" alt="img">
                     </button>
-                    <a href="#" class="btn-projects">
+                    <a href="./projects.php" class="btn-projects">
                         <img class="lazyload main" src="img/default.png" data-src="img/icons/projects.svg" alt="Search">
                         <img class="lazyload letter" src="img/default.png" data-src="img/icons/g.svg" alt="img">
                         Бутик резиденций
@@ -28,7 +28,7 @@
 
                     <?php include 'templates/components/socials/messenger.php'; ?>
 
-                    <button class="button button--primary" type="button">
+                    <button class="button button--primary" type="button" data-toggle="modal" data-target="#modal_consultation">
                         <span class="button__text">Обсудить проект</span>
                         <img src="img/icons/arrow-white.svg" alt="img">
                     </button>
@@ -41,51 +41,52 @@
                 <div class="footer__column footer__column--menu">
                     <h3 class="footer__title">Общее</h3>
                     <ul class="footer__list">
-                        <li><a href="#">Главная</a></li>
-                        <li><a href="#">Галерея проектов</a></li>
-                        <li><a href="#">Журнал</a></li>
-                        <li><a href="#">Партнерам</a></li>
-                        <li><a href="#">Технологии и материалы</a></li>
-                        <li><a href="#">Этапы работы</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="./">Главная</a></li>
+                        <li><a href="./about.php">Компания</a></li>
+                        <li><a href="./projects.php">Бутик резиденции</a></li>
+                        <li><a href="./articles.php">Журнал</a></li>
+                        <li><a href="./partners.php">Партнерам</a></li>
+                        <li><a href="./technologies.php">Технологии и материалы</a></li>
+                        <li><a href="./steps.php">Этапы работы</a></li>
+                        <li><a href="./faq.php">FAQ</a></li>
                     </ul>
                 </div>
                 <div class="footer__column footer__column--menu">
                     <h3 class="footer__title">Услуги</h3>
                     <ul class="footer__list">
-                        <li><a href="#">Архитектурное проектирование</a></li>
-                        <li><a href="#">Инженерные решения</a></li>
-                        <li><a href="#">Дизайн интерьеров</a></li>
-                        <li><a href="#">Строительство "под ключ"</a></li>
-                        <li><a href="#">Технадзор</a></li>
+                        <li><a href="./architecture.php">Архитектурное проектирование</a></li>
+                        <li><a href="./engineering.php">Инженерные решения</a></li>
+                        <li><a href="./interior.php">Дизайн интерьеров</a></li>
+                        <li><a href="./turnkey-homes.php">Строительство "под ключ"</a></li>
+                        <!-- <li><a href="/">Технадзор</a></li> -->
                     </ul>
                 </div>
                 <div class="footer__column footer__column--menu footer__column--two-cols">
                     <h3 class="footer__title">Резиденции</h3>
                     <ul class="footer__list">
-                        <li><a href="#">Вилла Медичи</a></li>
-                        <li><a href="#">Вилла Карлотта</a></li>
-                        <li><a href="#">Вилла Руфоло</a></li>
-                        <li><a href="#">Вилла Фарнезе</a></li>
-                        <li><a href="#">Вилла Антиниори</a></li>
-                        <li><a href="#">Вилла Контарини</a></li>
-                        <li><a href="#">Вилла Кастелло</a></li>
-                        <li><a href="#">Вилла Пудзо</a></li>
-                        <li><a href="#">Вилла Марчелло</a></li>
-                        <li><a href="#">Вилла Негрони</a></li>
-                        <li><a href="#">Вилла Факанони</a></li>
-                        <li><a href="#">Вилла Лаппеджи</a></li>
-                        <li><a href="#">Вилла Вероника</a></li>
+                        <li><a href="./project.php">Вилла Медичи</a></li>
+                        <li><a href="./project.php">Вилла Карлотта</a></li>
+                        <li><a href="./project.php">Вилла Руфоло</a></li>
+                        <li><a href="./project.php">Вилла Фарнезе</a></li>
+                        <li><a href="./project.php">Вилла Антиниори</a></li>
+                        <li><a href="./project.php">Вилла Контарини</a></li>
+                        <li><a href="./project.php">Вилла Кастелло</a></li>
+                        <li><a href="./project.php">Вилла Пудзо</a></li>
+                        <li><a href="./project.php">Вилла Марчелло</a></li>
+                        <li><a href="./project.php">Вилла Негрони</a></li>
+                        <li><a href="./project.php">Вилла Факанони</a></li>
+                        <li><a href="./project.php">Вилла Лаппеджи</a></li>
+                        <li><a href="./project.php">Вилла Вероника</a></li>
                     </ul>
                 </div>
                 <div class="footer__column footer__column--menu">
                     <h3 class="footer__title">О компании</h3>
                     <ul class="footer__list">
-                        <li><a href="#">Медиа</a></li>
-                        <li><a href="#">Отзывы</a></li>
-                        <li><a href="#">Карьера</a></li>
-                        <li><a href="#">Гарантия</a></li>
-                        <li><a href="#">Награды и документы</a></li>
+                        <li><a href="./media.php">Медиа</a></li>
+                        <li><a href="./reviews.php">Отзывы</a></li>
+                        <li><a href="./careers.php">Карьера</a></li>
+                        <li><a href="./guarantee.php">Гарантия</a></li>
+                        <li><a href="./documents.php">Награды и документы</a></li>
                     </ul>
                 </div>
                 <div class="footer__column footer__column--contacts">
@@ -126,28 +127,28 @@
     <nav class="bottom-nav">
         <ul class="bottom-nav__list">
             <li class="bottom-nav__item">
-                <a href="#">
+                <a href="./projects.php">
                     <span class="bottom-nav__icon"><img class="lazyload" src="img/default.png" data-src="img/icons/catalog.svg" alt="img"></span>
                     <span class="bottom-nav__label">Проекты домов</span>
                 </a>
             </li>
 
             <li class="bottom-nav__item">
-                <a href="#">
+                <a href="./services.php">
                     <span class="bottom-nav__icon"><img class="lazyload" src="img/default.png" data-src="img/icons/services.svg" alt="img"></span>
                     <span class="bottom-nav__label">Услуги</span>
                 </a>
             </li>
 
             <li class="bottom-nav__item">
-                <a href="#">
+                <a href="./articles.php">
                     <span class="bottom-nav__icon"><img class="lazyload" src="img/default.png" data-src="img/icons/articles.svg" alt="img"></span>
                     <span class="bottom-nav__label">Журнал</span>
                 </a>
             </li>
 
             <li class="bottom-nav__item">
-                <a href="#">
+                <a href="./contacts.php">
                     <span class="bottom-nav__icon"><img class="lazyload" src="img/default.png" data-src="img/icons/contacts.svg" alt="img"></span>
                     <span class="bottom-nav__label">Контакты</span>
                 </a>
@@ -155,10 +156,87 @@
         </ul>
     </nav>
 
-    <button class="fixed-button">Запросить презентацию <img class="lazyload" src="img/default.png" data-src="img/icons/arrow-link.svg" alt="img"></button>
+    <!-- cookie -->
+    <div class="cookie" id="cookie">
+        <div class="cookie__inner">
+            <div class="cookie__text">
+                <p>ООО &laquo;Вилти&raquo; использует файлы &laquo;cookie&raquo; с&nbsp;целью персонализации сервисов и&nbsp;повышения удобства пользования веб-сайтом. Если&nbsp;вы&nbsp;не&nbsp;хотите, чтобы ваши пользовательские данные обрабатывались, пожалуйста, ограничьте их&nbsp;использование в&nbsp;своём браузере.</p>
+            </div>
+            <button class="button button--cookie" onclick="acceptCookies()">Понятно</button>
+        </div>
+    </div>
+
+    <!-- navmenu -->
+    <div class="navmenu">
+        <div class="navmenu__inner">
+            <div class="navmenu__grid">
+                <div class="navmenu__row">
+                    <div class="navmenu__title">Общее</div>
+                    <div class="navmenu__list">
+                        <ul>
+                            <li><a href="./projects.php">Бутик резиденций </a></li>
+                            <li><a href="./technologies.php">Технологии и материалы </a></li>
+                            <li><a href="./steps.php">Этапы работы </a></li>
+                            <li><a href="./guarantee.php">Гарантии </a></li>
+                            <!-- <li><a href="./projects.php">Мы строили </a></li> -->
+                            <li><a href="./faq.php">FAQ </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navmenu__row is-hidden">
+                    <div class="navmenu__title">Проекты</div>
+                    <div class="navmenu__list">
+                        <ul>
+                            <li><a href="./project.php">Вилла Медичи</a></li> 
+                            <li><a href="./project.php">Вилла Карлотта</a></li>
+                            <li><a href="./project.php">Вилла Руфоло</a></li>
+                            <li><a href="./project.php">Вилла Фарнезе</a></li>
+                            <li><a href="./project.php">Вилла Антинори</a></li>
+                            <li><a href="./project.php">Вилла Контарини</a></li>
+                            <li><a href="./project.php">Вилла Кастелло</a></li>
+                            <li><a href="./project.php">Вилла Пуэро</a></li>
+                            <li><a href="./project.php">Вилла Марчелло</a></li>
+                            <li><a href="./project.php">Вилла Негрони</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navmenu__row">
+                    <div class="navmenu__title">Услуги</div>
+                    <div class="navmenu__list">
+                        <ul>
+                            <li><a href="./engineering.php">Инженерные решения </a></li>
+                            <li><a href="./interior.php">Дизайн интерьеров </a></li>
+                            <!-- <li><a href="#">Технадзор </a></li> -->
+                            <!-- <li><a href="#">Архитекторам </a></li> -->
+                            <li><a href="./architecture.php">Архитектурное проектирование </a></li>
+                            <li><a href="./turnkey-homes.php">Строительство “под ключ” </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="navmenu__row">
+                    <div class="navmenu__title">О компании</div>
+                    <div class="navmenu__list">
+                        <ul>
+                            <li><a href="./documents.php">Награды и документы</a></li>
+                            <li><a href="./careers.php">Карьера</a></li>
+                            <li><a href="./media.php">Медиа</a></li>
+                            <li><a href="./reviews.php">Отзывы</a></li>
+                            <li><a href="./articles.php">Журнал</a></li>
+                            <li><a href="./contacts.php">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- fixed-button -->
+    <button class="fixed-button" data-toggle="modal" data-target="#modal_consultation">Запросить презентацию <img class="lazyload" src="img/default.png" data-src="img/icons/arrow-link.svg" alt="img"></button>
 
     <div class="overlay"></div>
     <div class="cursor"></div>
+
+    <?php include 'templates/components/modal.php'; ?>
 
     <!-- scripts -->
     <script src="js/script.min.js?v=<?= filemtime('js/script.min.js') ?>"></script>

@@ -62,24 +62,24 @@
             <div class="header__inner">
                 <div class="header__left">
                     <button class="btn-burger" type="button">
-                        <img class="lazyload main" src="img/default.png" data-src="img/icons/burger.svg" alt="Catalog">
-                        <img class="lazyload letter" src="img/default.png" data-src="img/icons/m.svg" alt="img">
+                        Меню
+                        <img class="main" src="img/icons/burger.svg" alt="Catalog">
+                        <img class="letter" src="img/icons/m.svg" alt="img">
+                        <img class="close" src="img/icons/close.svg" alt="Catalog">
                     </button>
                     <form class="search">
                         <input type="text" placeholder="Поиск" class="search__input">
                         <button class="search__btn btn-search" type="button">
-                            <img class="lazyload main" src="img/default.png" data-src="img/icons/search.svg" alt="Search">
-                            <img class="lazyload letter" src="img/default.png" data-src="img/icons/s.svg" alt="img">
+                            <img class="main" src="img/icons/search.svg" alt="Search">
+                            <img class="letter" src="img/icons/s.svg" alt="img">
                         </button>
                     </form>
-                    <a href="#" class="btn-projects btn-gradient">
-                        <img class="lazyload main" src="img/default.png" data-src="img/icons/projects.svg" alt="Search">
-                        <img class="lazyload letter" src="img/default.png" data-src="img/icons/g.svg" alt="img">
+                    <a href="./projects.php" class="btn-projects btn-gradient">
+                        <img class="main" src="img/icons/projects.svg" alt="Search">
+                        <img class="letter" src="img/icons/g.svg" alt="img">
                         Бутик резиденций
                     </a>
                     <?php include 'templates/components/socials/phone.php'; ?>
-                    <button class="header__burger" type="button">Меню<img class="lazyload main" src="img/default.png" data-src="img/icons/burger.svg" alt="Catalog"></button>
-                    
                 </div>
 
                 <div class="header__logo">
@@ -90,10 +90,10 @@
                     <?php include 'templates/components/socials/phone.php'; ?>
 
                     <?php include 'templates/components/lang.php'; ?>
-
+ 
                     <?php include 'templates/components/socials/messenger.php'; ?>
 
-                    <button class="button button--primary" type="button">
+                    <button class="button button--primary" type="button" data-toggle="modal" data-target="#modal_consultation">
                         <span class="button__text">Обсудить проект</span>
                         <img src="img/icons/arrow-white.svg" alt="img">
                     </button>
@@ -103,11 +103,11 @@
         <div class="header__row header__row--bottom">
             <div class="header__inner">
                 <ul class="menu">
-                    <li class="has-children">
-                        <a href="#">Компания</a>
-                        <ul class="submenu">
+                    <li>
+                        <a href="./about.php">Компания</a>
+                        <!-- <ul class="submenu">
                             <li>
-                                <a href="#">Компания</a>
+                                <a href="#">О нас</a>
                             </li>
                             <li>
                                 <a href="#">Компания</a>
@@ -115,32 +115,33 @@
                             <li>
                                 <a href="#">Компания</a> 
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
-                        <a href="#">Бутик резиденций</a>
+                        <a href="./projects.php">Бутик резиденций</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#">Мы строили</a>
+                    </li> -->
+                    <li>
+                        <a href="./architecture.php">Архитектурное проектирование</a>
                     </li>
                     <li>
-                        <a href="#">Архитектурное проектирование</a>
+                        <a href="./interior.php">Дизайн интерьера</a>
                     </li>
                     <li>
-                        <a href="#">Дизайн интерьера</a>
+                        <a href="./turnkey-homes.php">Строительство под ключ</a>
                     </li>
-                    <li>
-                        <a href="#">Строительство под ключ</a>
-                    </li>
-                    <li>
+                    <!-- <li>
                         <a href="#">Технадзор</a>
-                    </li>
+                    </li> -->
                     <li>
-                        <a href="#">Инженерные сети</a>
+                        <a href="./engineering.php">Инженерные сети</a>
                     </li>
-                    <li class="has-children">
-                        <a href="#">Партнерам</a>
-                        <ul class="submenu">
+                    <!-- для подменю has-children -->
+                    <li>
+                        <a href="./partners.php">Партнерам</a>
+                        <!-- <ul class="submenu">
                             <li>
                                 <a href="#">Партнерам</a>
                             </li>
@@ -150,10 +151,10 @@
                             <li>
                                 <a href="#">Партнерам</a> 
                             </li>
-                        </ul>
+                        </ul> -->
                     </li>
                     <li>
-                        <a href="#">Контакты</a>
+                        <a href="./contacts.php">Контакты</a>
                     </li>
                 </ul>
             </div>

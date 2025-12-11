@@ -12,7 +12,7 @@
                 </div>
                 <div class="build-process__name">В&nbsp;мире до&nbsp;70% проектов выходят за&nbsp;рамки бюджета и&nbsp;сроков (по&nbsp;данным KPMG).</div>
                 <div class="build-process__desc"><p>Мы&nbsp;строим иначе: прозрачный процесс, контроль и&nbsp;экспертиза превращают ваш дом в&nbsp;реальность&nbsp;&mdash; без лишних сюрпризов.</p></div>
-                <a href="#" class="link">Хроника резиденций <span class="link__icon"></span></a> 
+                <a href="./projects.php" class="link">Хроника резиденций <span class="link__icon"></span></a> 
             </div>
         </div>
     </div>

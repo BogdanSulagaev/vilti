@@ -1,0 +1,139 @@
+/*project-gallery*/
+.project-gallery {
+	.project-gallery__content {
+		display: flex;
+		flex-direction: column;
+		gap: 40px;
+	}
+	.project-gallery__details {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 5px;
+			margin: 0;
+			padding: 0;
+			list-style: none;
+
+			li {
+				background: #F3F3F3;
+				border-radius: 4px;
+				height: 23px;
+				padding: 0 6px;
+				display: inline-flex;
+				align-items: center;
+				justify-content: center;
+				color: #000;
+    		font-weight: 600;
+    		font-size: 16px;
+			}
+		}
+	}
+	.project-gallery__grid {
+		padding-top: var(--padding-large);
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.project-gallery__image {
+		height: 730px;
+		border-radius: 2px;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+		&.project-gallery__image--md {
+			width: calc((100% - 15px) / 2);
+			height: 400px;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.project-gallery .project-gallery__content {
+		gap: 30px;
+	}
+	.project-gallery .project-gallery__details ul li {
+		font-size: 14px;
+	}
+	.project-gallery .project-gallery__image {
+		height: 630px;
+
+		&.project-gallery__image--md {
+			height: 340px;
+		}
+	}
+}
+@media (max-width: 1440px) {
+	.project-gallery .project-gallery__image {
+		height: 530px;
+
+		&.project-gallery__image--md {
+			height: 280px;
+		}
+	}
+}
+@media (max-width: 1199px) {
+	.project-gallery .project-gallery__image {
+		height: 430px;
+
+		&.project-gallery__image--md {
+			height: 240px;
+		}
+	}
+	.project-gallery .subtitle br {
+		display: none;
+	}
+}
+@media (max-width: 991px) {
+	.project-gallery .project-gallery__image {
+		height: 400px;
+
+		&.project-gallery__image--md {
+			height: 200px;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.project-gallery .project-gallery__grid {
+		gap: 5px;
+	}
+	.project-gallery .project-gallery__details ul li {
+		font-size: 12px;
+	}
+	.project-gallery .project-gallery__image {
+		height: 250px;
+
+		&.project-gallery__image--md {
+			height: 140px;
+			width: calc((100% - 5px) / 2);
+		}
+	}
+}
+@media (max-width: 479px) {
+	.project-gallery {
+		padding-top: 30px;
+	}
+	.project-gallery .project-gallery__content {
+		gap: 20px;
+	}
+	.project-gallery .project-gallery__grid {
+		padding-top: 40px;
+	}
+	.project-gallery .project-gallery__grid {
+		margin-left: -10px;
+		margin-right: -10px;
+	}
+	.project-gallery .project-gallery__image {
+		height: 170px;
+
+		&.project-gallery__image--md {
+			height: 100px;
+			
+		}
+	}
+}

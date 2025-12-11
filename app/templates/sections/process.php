@@ -9,7 +9,7 @@
                     </div>
                     <div class="process__title">Прозрачный процесс</div>
                     <div class="process__text"><p><strong>Фиксированные этапы и&nbsp;сроки. </strong>Вы&nbsp;заранее знаете бюджет и&nbsp;видите, как дом растёт шаг за&nbsp;шагом.</p></div>
-                    <a href="#" class="link">Этапы реализации <span class="link__icon"></span></a>
+                    <a href="./steps.php" class="link">Этапы реализации <span class="link__icon"></span></a>
                 </div>
                 <div class="process__image fade-in-up">
                     <picture>

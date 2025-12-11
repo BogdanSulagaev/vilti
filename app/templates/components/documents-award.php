@@ -4,25 +4,25 @@ $award = [
         'image'  => '1',
         'title' => 'Премия <br>&laquo;Архитектурная точность&raquo;',
         'text'  => '<p><strong>Номинация:</strong> За&nbsp;совершенство проектных решений и&nbsp;инженерную эстетику.</p><p><strong>Организатор:</strong> Национальный совет организации АрхитекторыМосРуден.</p>',
-        'quote' => '<p>&laquo;За&nbsp;безупречную интеграцию архитектурной формы и&nbsp;инженерного исполнения.&raquo;</p>',
+        'quote' => '<p>&laquo;За&nbsp;безупречную интеграцию архитектурной формы и&nbsp;инженерного исполнения&raquo;.</p>',
     ],
     2 => [
         'image'  => '2',
         'title' => 'Премия <br>&laquo;Дом как наследие&raquo;',
         'text'  => '<p><strong>Номинация:</strong> За&nbsp;концепцию жилых домов, сочетающую эстетику и&nbsp;долговечность.</p><p><strong>Организатор:</strong> Журнал Modern Architecture &amp;&nbsp;Design Awards.</p>',
-        'quote' => '<p>&laquo;За&nbsp;создание нового стандарта <br>частной архитектуры.&raquo;</p>',
+        'quote' => '<p>&laquo;За&nbsp;создание нового стандарта <br>частной архитектуры&raquo;.</p>',
     ],
     3 => [
         'image'  => '3',
         'title' => 'Премия <br>&laquo;Архитектура и&nbsp;среда&raquo;',
         'text'  => '<p><strong>Номинация:</strong> За&nbsp;экологичный подход и&nbsp;интеграцию домов в&nbsp;природный ландшафт.</p><p><strong>Организатор:</strong> Международная выставка EcoBuild Moscow.</p>',
-        'quote' => '<p>&laquo;За&nbsp;умение создавать архитектуру, которая не&nbsp;нарушает природу, а&nbsp;становится её&nbsp;частью.&raquo;</p>',
+        'quote' => '<p>&laquo;За&nbsp;умение создавать архитектуру, которая не&nbsp;нарушает природу, а&nbsp;становится её&nbsp;частью&raquo;.</p>',
     ],
     4 => [
         'image'  => '4',
         'title' => 'Премия <br>&laquo;Инженерная гарантия&raquo;',
         'text'  => '<p><strong>Номинация:</strong> За&nbsp;инновации в&nbsp;строительных технологиях и&nbsp;системах контроля качества.</p><p><strong>Организатор:</strong> Профессиональное сообщество девелоперов BuildTrust 2025.</p>',
-        'quote' => '<p>&laquo;За&nbsp;внедрение прозрачной системы контроля и&nbsp;гарантий в&nbsp;премиум-домостроении.&raquo;</p>',
+        'quote' => '<p>&laquo;За&nbsp;внедрение прозрачной системы контроля и&nbsp;гарантий в&nbsp;премиум-домостроении&raquo;.</p>',
     ],
 ];
 
@@ -48,9 +48,9 @@ $award = $award[$award_id];
     </div>
     <div class="documents-awards__image">
         <picture>
-            <source srcset="img/documents/<?=$award['image']?>.webp 1x, img/documents/<?=$award['image']?>@2x.webp 2x" type="image/webp">
-            <source srcset="img/documents/<?=$award['image']?>.jpg 1x, img/documents/<?=$award['image']?>@2x.jpg 2x" type="image/jpeg">
-            <img class="lazyload" data-srcset="img/documents/<?=$award['image']?>.jpg 1x, img/documents/<?=$award['image']?>@2x.jpg 2x" alt="img">
+            <source srcset="img/default.png" data-srcset="img/documents/<?=$award['image']?>.webp 1x, img/documents/<?=$award['image']?>@2x.webp 2x" type="image/webp">
+            <source srcset="img/default.png" data-srcset="img/documents/<?=$award['image']?>.jpg 1x, img/documents/<?=$award['image']?>@2x.jpg 2x" type="image/jpeg">
+            <img class="lazyload" src="img/default.png" data-srcset="img/documents/<?=$award['image']?>.jpg 1x, img/documents/<?=$award['image']?>@2x.jpg 2x" alt="img">
         </picture>
     </div> 
 </div>

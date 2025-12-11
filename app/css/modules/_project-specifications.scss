@@ -1,0 +1,132 @@
+/*project-specifications*/
+.project-specifications {
+	.project-specifications__wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: calc(var(--padding-medium) - 10px);
+	}
+	.head-content {
+		flex-direction: row;
+		gap: 30px;
+	}
+	.section-title {
+		width: 43%;
+	}
+	.subtitle {
+		width: calc(57% - 30px);
+		font-family: var(--font-second);
+		background: conic-gradient(from 119.5deg at 50% 50%, rgba(255, 255, 255, 0) 0deg, rgba(255,255,255,.3) 360deg), linear-gradient(0deg, #FFC7A6, #FFC7A6);
+		padding: 29px 20px;
+		line-height: 110%;
+	}
+
+	.project-specifications__grid {
+		display: flex;
+		flex-direction: column;
+		gap: 25px;
+	}
+	.project-specifications__param {
+		display: flex;
+		align-items: flex-start;
+		gap: 20px;
+		border-bottom: 1px solid #D6D6D6;
+		padding-bottom: 25px;
+	}
+	.project-specifications__label {
+		font-size: 20px;
+		line-height: 110%;
+		font-weight: 600;
+		color: #000;
+		font-family: var(--font-second);
+		width: 32%;
+	}
+	.project-specifications__value {
+		font-size: 20px;
+		line-height: 120%;
+		width: calc(68% - 20px);
+		color: var(--gray);
+	}
+}
+@media (max-width: 1600px) {
+	.project-specifications .project-specifications__label {
+		font-size: 18px;
+	}
+	.project-specifications .project-specifications__value {
+		font-size: 18px;
+	}
+	.project-specifications .project-specifications__param {
+		padding-bottom: 20px;
+	}
+	.project-specifications .project-specifications__grid {
+		gap: 20px;
+	}
+	.project-specifications .subtitle {
+		padding: 25px 15px;
+		width: calc(60% - 30px);
+	}
+	.project-specifications .section-title {
+		width: 40%;
+	}
+}
+@media (max-width: 1440px) {
+.project-specifications .project-specifications__label {
+		font-size: 16px;
+	}
+	.project-specifications .project-specifications__value {
+		font-size: 16px;
+	}
+	.project-specifications .project-specifications__wrapper {
+		gap: 30px;
+	}
+	.project-specifications .subtitle {
+		padding: 20px 15px;
+		width: calc(72% - 30px);
+	}
+	.project-specifications .section-title {
+		width: 28%;
+	}
+}
+@media (max-width: 1199px) {
+	.project-specifications .head-content {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.project-specifications .subtitle {
+		width: auto;
+	}
+	.project-specifications .section-title {
+		width: 100%;
+
+		br {
+			display: none;
+		}
+	}
+}
+@media (max-width: 767px) {
+	.project-specifications .project-specifications__param {
+		flex-direction: column;
+		gap: 10px;
+	}
+	.project-specifications .project-specifications__label {
+		width: 100%;
+	}
+	.project-specifications .project-specifications__value {
+		font-size: 14px;
+		width: 100%;
+	}
+}
+@media (max-width: 479px) {
+	.project-specifications .project-specifications__param {
+		padding-bottom: 10px;
+	}
+	.project-specifications .project-specifications__grid {
+		gap: 10px;
+	}
+	.project-specifications .project-specifications__value {
+		color: #000;
+	}
+	.project-specifications .subtitle {
+		font-size: 16px;
+		padding: 15px 20px;
+	}
+}

@@ -158,6 +158,6 @@ $article = $article[$article_id]; ?>
   <div class="article-card__content">
     <div class="article-card__date"><?=$article['date']?></div>
     <div class="article-card__title"><?=$article['title']?></div>
-    <a href="#" class="article-card__link"></a>
+    <a href="./article.php" class="article-card__link"></a>
   </div>
 </article>

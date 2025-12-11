@@ -1,0 +1,137 @@
+/*steps-payment*/
+.steps-payment {
+	.steps-payment__content {
+		display: flex;
+		flex-direction: column;
+		gap: calc(var(--padding-medium) - 20px);
+	}
+	.steps-payment__grid {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.steps-payment__row {
+		position: relative;
+		display: flex;
+		border-bottom: 1px solid #D6D6D6;
+		padding: 30px 0 15px;
+
+		&.steps-payment__row--head {
+			border: none;
+			padding: 21px 0;
+
+			.col {
+				color: #000;
+				font-family: var(--font-second);
+				font-weight: 700;
+			}
+			&::before {
+				content:"";
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: -999px;
+				right: -999px;
+				background: #F8F8F8;
+			}
+		}
+		&.steps-payment__row--body {
+			.col {
+				&:first-child {
+					color: #000;
+					font-family: var(--font-second);
+					font-weight: 600;
+				}
+			}
+		}
+		.col {
+			font-size: 24px;
+			line-height: 120%;
+			color: var(--gray);
+			position: relative;
+			z-index: 12;
+			padding-right: 10px;
+
+			&:first-child {
+				width: 19%;
+			}
+			&:nth-child(2) {
+				width: 55%;
+			}
+			&:nth-child(3) {
+				width: 26%;
+			}
+			&:last-child {
+				padding-right: 0;
+			}
+ 		}
+	}
+}
+@media (max-width: 1600px) {
+	.steps-payment .steps-payment__row .col {
+		font-size: 20px;
+	}
+	.steps-payment .steps-payment__row {
+		padding-top: 20px;
+	}
+	.steps-payment .steps-payment__grid {
+		gap: 20px;
+	}
+	.steps-payment .steps-payment__row.steps-payment__row--head {
+		padding: 17px 0;
+	}
+}
+@media (max-width: 1440px) {
+	.steps-payment .steps-payment__content {
+		gap: 30px;
+	}
+	.steps-payment .steps-payment__row .col {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1199px) {
+	.steps-payment .steps-payment__row .col {
+		font-size: 16px;
+	}
+
+}
+@media (min-width: 768px) {
+	.steps-payment {
+		border-right: 10px solid #fff;
+		border-left: 10px solid #fff;
+		overflow: hidden;
+	}
+}
+@media (max-width: 767px) {
+	.steps-payment .title br {
+		display: none;
+	}
+	.steps-payment .steps-payment__row.steps-payment__row--head {
+		display: none;
+	}
+	.steps-payment .steps-payment__row {
+		padding: 15px 0;
+		flex-direction: column;
+		gap: 15px;
+	}
+	.steps-payment .steps-payment__grid {
+		gap: 15px;
+	}
+	.steps-payment .steps-payment__row .col:first-child {
+		width: 100%;
+	}
+	.steps-payment .steps-payment__row .col:nth-child(2) {
+		width: 100%;
+	}
+	.steps-payment .steps-payment__row .col:nth-child(3) {
+		width: 100%;
+	}
+	.steps-payment .steps-payment__row .col {
+		padding: 0;
+	}
+}
+@media (max-width: 479px) {
+	.steps-payment .steps-payment__row .col:not(:first-child) {
+		font-size: 14px;
+	}
+}

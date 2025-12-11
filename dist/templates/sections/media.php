@@ -5,7 +5,7 @@
       <nav class="breadcrumbs fade-in" aria-label="Breadcrumb" role="navigation" itemscope itemtype="https://schema.org/BreadcrumbList">
           <ol class="breadcrumbs__list">
               <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                  <a class="breadcrumbs__link" href="/" itemprop="item">
+                  <a class="breadcrumbs__link" href="./" itemprop="item">
                       <span itemprop="name">Главная</span>
                   </a>
                   <meta itemprop="position" content="1" />
@@ -40,51 +40,293 @@
           <button class="categories__item" type="button">Резиденции</button>
         </div>
       </div>
-      <div class="media__articles">
-        <?php
-          $articlevideo_id = 1;
-          include('templates/components/article-video.php'); 
-        ?>
-        <div class="media__articles-row">
+      <div class="media__panel is-active">
+        <div class="media__articles">
           <?php
-            $article_id = 9;
-            include('templates/components/article-card.php'); 
+            $articlevideo_id = 1;
+            include('templates/components/article-video.php'); 
+          ?>
+          <div class="media__articles-row">
+            <?php
+              $article_id = 9;
+              include('templates/components/article-card.php'); 
 
-            $article_id = 10;
-            include('templates/components/article-card.php'); 
+              $article_id = 10;
+              include('templates/components/article-card.php'); 
 
-            $article_id = 11;
-            include('templates/components/article-card.php'); 
+              $article_id = 11;
+              include('templates/components/article-card.php'); 
 
-            $article_id = 12;
-            include('templates/components/article-card.php'); 
+              $article_id = 12;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+          <?php
+            $articlevideo_id = 2;
+            include('templates/components/article-video.php'); 
+          ?>
+
+          <div class="media__articles-row">
+            <?php
+              $article_id = 1;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 3;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 4;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 5;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+
+          <?php
+            $articlevideo_id = 3;
+            include('templates/components/article-video.php'); 
           ?>
         </div>
-        <?php
-          $articlevideo_id = 2;
-          include('templates/components/article-video.php'); 
-        ?>
-
-        <div class="media__articles-row">
+      </div>
+      <div class="media__panel">
+        <div class="media__articles">
           <?php
-            $article_id = 1;
-            include('templates/components/article-card.php'); 
+            $articlevideo_id = 1;
+            include('templates/components/article-video.php'); 
+          ?>
+          <div class="media__articles-row">
+            <?php
+              $article_id = 9;
+              include('templates/components/article-card.php'); 
 
-            $article_id = 3;
-            include('templates/components/article-card.php'); 
+              $article_id = 10;
+              include('templates/components/article-card.php'); 
 
-            $article_id = 4;
-            include('templates/components/article-card.php'); 
+              $article_id = 11;
+              include('templates/components/article-card.php'); 
 
-            $article_id = 5;
-            include('templates/components/article-card.php'); 
+              $article_id = 12;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+          <?php
+            $articlevideo_id = 2;
+            include('templates/components/article-video.php'); 
+          ?>
+
+          <div class="media__articles-row">
+            <?php
+              $article_id = 1;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 3;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 4;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 5;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+
+          <?php
+            $articlevideo_id = 3;
+            include('templates/components/article-video.php'); 
           ?>
         </div>
+      </div>
+      <div class="media__panel">
+        <div class="media__articles">
+          <?php
+            $articlevideo_id = 1;
+            include('templates/components/article-video.php'); 
+          ?>
+          <div class="media__articles-row">
+            <?php
+              $article_id = 9;
+              include('templates/components/article-card.php'); 
 
-        <?php
-          $articlevideo_id = 3;
-          include('templates/components/article-video.php'); 
-        ?>
+              $article_id = 10;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 11;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 12;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+          <?php
+            $articlevideo_id = 2;
+            include('templates/components/article-video.php'); 
+          ?>
+
+          <div class="media__articles-row">
+            <?php
+              $article_id = 1;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 3;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 4;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 5;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+
+          <?php
+            $articlevideo_id = 3;
+            include('templates/components/article-video.php'); 
+          ?>
+        </div>
+      </div>
+      <div class="media__panel">
+        <div class="media__articles">
+          <?php
+            $articlevideo_id = 1;
+            include('templates/components/article-video.php'); 
+          ?>
+          <div class="media__articles-row">
+            <?php
+              $article_id = 9;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 10;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 11;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 12;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+          <?php
+            $articlevideo_id = 2;
+            include('templates/components/article-video.php'); 
+          ?>
+
+          <div class="media__articles-row">
+            <?php
+              $article_id = 1;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 3;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 4;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 5;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+
+          <?php
+            $articlevideo_id = 3;
+            include('templates/components/article-video.php'); 
+          ?>
+        </div>
+      </div>
+      <div class="media__panel">
+        <div class="media__articles">
+          <?php
+            $articlevideo_id = 1;
+            include('templates/components/article-video.php'); 
+          ?>
+          <div class="media__articles-row">
+            <?php
+              $article_id = 9;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 10;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 11;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 12;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+          <?php
+            $articlevideo_id = 2;
+            include('templates/components/article-video.php'); 
+          ?>
+
+          <div class="media__articles-row">
+            <?php
+              $article_id = 1;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 3;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 4;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 5;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+
+          <?php
+            $articlevideo_id = 3;
+            include('templates/components/article-video.php'); 
+          ?>
+        </div>
+      </div>
+      <div class="media__panel">
+        <div class="media__articles">
+          <?php
+            $articlevideo_id = 1;
+            include('templates/components/article-video.php'); 
+          ?>
+          <div class="media__articles-row">
+            <?php
+              $article_id = 9;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 10;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 11;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 12;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+          <?php
+            $articlevideo_id = 2;
+            include('templates/components/article-video.php'); 
+          ?>
+
+          <div class="media__articles-row">
+            <?php
+              $article_id = 1;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 3;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 4;
+              include('templates/components/article-card.php'); 
+
+              $article_id = 5;
+              include('templates/components/article-card.php'); 
+            ?>
+          </div>
+
+          <?php
+            $articlevideo_id = 3;
+            include('templates/components/article-video.php'); 
+          ?>
+        </div>
       </div>
       <nav class="pagination fade-in">
         <ul class="pagination__list">

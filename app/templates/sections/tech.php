@@ -7,12 +7,12 @@
                 <div class="subtitle">Специализируемся на&nbsp;капитальном домостроении с&nbsp;использованием проверенных технологий</div>
             </div>
             <div class="tech__grid">
-                <div class="tech__item tech__item--1 fade-in-up">
-                    <div class="tech__item-img">
+                <div class="info-card info-card--1 fade-in-up info-card--large">
+                    <div class="info-card__img">
                         <img class="lazyload" src="img/default.png" data-src="img/tech/mark1.svg" alt="icon">
                     </div>
-                    <div class="tech__item-title">Каменные дома</div>
-                    <div class="tech__item-text">
+                    <div class="info-card__title">Каменные дома</div>
+                    <div class="info-card__text">
                         <p>Классические технологии из&nbsp;керамических <br>блоков Porotherm и&nbsp;кирпича. </p>
                         <ul>
                             <li>Стены из&nbsp;керамоблоков Wienerberger</li>
@@ -22,12 +22,12 @@
                         </ul>
                     </div>
                 </div>
-                <div class="tech__item tech__item--2 fade-in-up">
-                    <div class="tech__item-img">
+                <div class="info-card info-card--2 fade-in-up info-card--large">
+                    <div class="info-card__img">
                         <img class="lazyload" src="img/default.png" data-src="img/tech/mark2.svg" alt="icon">
                     </div>
-                    <div class="tech__item-title">Монолитные дома</div>
-                    <div class="tech__item-text">
+                    <div class="info-card__title">Монолитные дома</div>
+                    <div class="info-card__text">
                         <p>Железобетонные конструкции <br>высокой прочности.</p>
                         <ul>
                             <li>Бетон класса B30 и&nbsp;выше</li>
@@ -44,7 +44,7 @@
                         </video>
                     </div>
                     <div class="tech__cta-title">Рассчитайте стоимость вашего дома за&nbsp;3&nbsp;минуты</div>
-                    <a href="#" class="button button--primary"><span class="button__text">Перейти в калькулятор</span></a>
+                    <a href="./projects.php" class="button button--primary"><span class="button__text">Перейти в&nbsp;бутик резиденций</span></a>
                 </div>
             </div>
         </div>

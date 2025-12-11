@@ -62,6 +62,17 @@
 	.faq__button {
 		display: none;
 	}
+	.faq__panel {
+		display: none;
+	}
+	.faq__panel.is-active {
+		display: block;
+
+		.fade-in-up {
+			visibility: visible !important;
+    	animation-name: fadeInUp !important;
+		}
+	}
 }
 @media (min-width: 1601px) {
 	.faq.faq--page .head-content {

@@ -28,6 +28,7 @@ if (isset($featured_id) && isset($featured[$featured_id])) {
             <span class="residence-featured__tag"><?= $item['tag'] ?></span>
             <h3 class="residence-featured__title title title--h2"><?= $item['title'] ?></h3>
         </div>
+        <a href="./project.php" class="residence-featured__link"></a>
     </div>
     <?php
 }

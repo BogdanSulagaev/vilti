@@ -5,7 +5,7 @@
             <nav class="breadcrumbs" aria-label="Breadcrumb" role="navigation" itemscope itemtype="https://schema.org/BreadcrumbList">
                 <ol class="breadcrumbs__list">
                     <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a class="breadcrumbs__link" href="/" itemprop="item">
+                        <a class="breadcrumbs__link" href="./" itemprop="item">
                             <span itemprop="name">Главная</span>
                         </a>
                         <meta itemprop="position" content="1" />
@@ -49,7 +49,7 @@
                         <div class="contacts__details-address">МО, Истринский район, деревня Захарово, поселок <br>Agalarov Estate, ул. Живописная д.&nbsp;27</div>
                         <div class="contacts__details-note">Встречи проводятся только по&nbsp;предзаписи, обязательно нужен пропуск на&nbsp;парковку</div>
                         <div class="contacts__btns">
-                            <button class="button button--primary"><span class="button__text">Записаться на консультацию</span><img class="lazyload" src="img/default.png" data-src="img/icons/arrow-white.svg" alt="img"></button>
+                            <button class="button button--primary" data-toggle="modal" data-target="#modal_consultation"><span class="button__text">Записаться на консультацию</span><img class="lazyload" src="img/default.png" data-src="img/icons/arrow-white.svg" alt="img"></button>
                             <a href="https://yandex.ru/maps/?ll=37.006348%2C55.800051&mode=routes&rtext=~55.800237%2C37.004626&rtt=auto&ruri=~ymapsbm1%3A%2F%2Fgeo%3Fdata%3DIgoNvAQUQhVxM19C&z=14.48" class="btn-map" target="_blank"><img class="lazyload" src="img/default.png" data-src="img/icons/btn-map.png" alt="img">Маршрут в&nbsp;Яндекс Картах</a>
                             <a href="https://3.redirect.appmetrica.yandex.com/route?end-lat=55.800145&end-lon=37.004616&tariffClass=econom&ref=https%3A%2F%2Fdevopsite.ru%2Fvilti%2F&appmetrica_tracking_id=1178268795219780156&lang=ru" class="btn-taxi" target="_blank">
                                 <img class="lazyload icon" src="img/default.png" data-src="img/icons/btn-taxi.jpg" alt="img">
@@ -57,7 +57,7 @@
                             </a> 
                         </div>
                         <div class="contacts__map">
-                            <iframe class="lazyload" data-src="https://yandex.ru/map-widget/v1/?ll=37.006348%2C55.800051&mode=whatshere&whatshere%5Bpoint%5D=37.004626%2C55.800237&whatshere%5Bzoom%5D=17&z=14.48" width="100%" height="100%" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
+                            <iframe class="lazyload" data-src="https://yandex.ru/map-widget/v1/?ll=37.006348%2C55.800051&mode=whatshere&whatshere%5Bpoint%5D=37.004626%2C55.800237&whatshere%5Bzoom%5D=17&z=14.48&scroll=false" width="100%" height="100%" frameborder="0" allowfullscreen="true" style="position:relative;"></iframe>
                         </div>
                     </div>
                 </div>

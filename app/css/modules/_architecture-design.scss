@@ -1,0 +1,136 @@
+/*architecture-design*/
+.architecture-design {
+	padding: 0;
+	margin-top: var(--padding-large);
+
+	.architecture-design__content {
+		min-height: 925px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: calc(var(--padding-medium) - 10px) 0 var(--padding-small); 
+		gap: 30px;
+	}
+	.head-content {
+		align-items: flex-start;
+	}
+	.architecture-design__details {
+		border-radius: 4px;
+		background: rgba(0,0,0,.2);
+		border: 1px solid #DDDFE0;
+		backdrop-filter: blur(8px);
+		padding: 64px 20px 30px;
+		color: #fff;
+		max-width: 520px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		overflow: hidden;
+	}
+	.architecture-design__img {
+		position: absolute;
+		top: 0;
+		left: 20px;
+		z-index: -1; 
+
+		img {
+			max-height: 100%;
+		}
+	}
+	.architecture-design__name {
+		font-size: 24px;
+		line-height: 110%;
+		font-family: var(--font-second);
+		padding: 0 0 20px 40px;
+	}
+	.architecture-design__desc {
+		color: rgba(255,255,255,.8);
+		font-size: 16px;
+		line-height: 120%;
+		display: flex;
+		flex-direction: column;
+		gap: 15px;
+
+		ol {
+			margin: 0;
+			padding-left: 20px;
+			display: flex;
+			flex-direction: column;
+			gap: 6px;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.architecture-design .architecture-design__details {
+		max-width: 450px;
+		padding: 54px 20px 20px;
+	}
+	.architecture-design .architecture-design__content {
+		min-height: 785px;
+	}
+	.architecture-design .architecture-design__name {
+		font-size: 20px; 
+		padding-bottom: 34px;
+	}
+	.architecture-design .architecture-design__img {
+		height: 80px;
+	}
+	.architecture-design .architecture-design__desc {
+		font-size: 14px;
+	}
+}
+@media (max-width: 1199px) {
+	.architecture-design .architecture-design__name {
+		font-size: 18px;
+		padding-bottom: 35px;
+	}
+	.architecture-design .architecture-design__details {
+		padding: 47px 15px 15px;
+		max-width: 440px;
+	}
+	.architecture-design .architecture-design__img {
+		height: 70px;
+	}
+	.architecture-design .architecture-design__content {
+		min-height: 660px;
+	}
+	.architecture-design .head-content {
+		gap: 30px;
+	}
+}
+@media (max-width: 991px) {
+	
+}
+@media (max-width: 767px) {
+	.architecture-design .architecture-design__content {
+		min-height: 470px;
+		padding: 30px 0 15px;
+		gap: 110px;
+	}
+	.architecture-design .architecture-design__img {
+		left: 0;
+	}
+	.architecture-design .architecture-design__name {
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+}
+@media (max-width: 479px) {
+	.architecture-design {
+		background: #938780;
+	}
+	.architecture-design .architecture-design__details {
+		padding: 25px 10px 10px;
+	}
+	.architecture-design .architecture-design__img {
+		top: -23px;
+		left: -8px;
+	}
+	.architecture-design .architecture-design__name {
+		padding-left: 10px;
+	}
+	.architecture-design .section-bg .section-bg__cover {
+		height: 340px;
+	}
+}

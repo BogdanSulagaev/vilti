@@ -1,0 +1,118 @@
+/*info-card*/
+.info-card {
+	border-radius: 4px;
+	border: 1px solid #DDDFE0;
+	padding: 64px 20px 20px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+
+	&.info-card--large {
+		.info-card__title {
+			margin-bottom: 90px;
+		}
+	}
+	.info-card__img {
+		position: absolute;
+	  top: -1px;
+	  right: 0;
+	  z-index: -1;
+
+	  img {
+	  	max-height: 100%;
+	  }
+	}
+	.info-card__title {
+	  font-size: 24px;
+	  line-height: 110%;
+	  font-family: var(--font-second);
+	  font-weight: 600;
+	  margin-bottom: 40px;
+	  z-index: 12;
+	  text-align: right;
+	}
+	.info-card__text {
+	  width: 100%;
+	  color: var(--gray);
+	  font-size: 16px;
+	  line-height: 120%;
+	  display: flex;
+	  flex-direction: column;
+	  gap: 15px;
+
+	  ul {
+			padding-left: 20px;
+			margin: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 5px;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.info-card {
+		padding: 54px 20px 20px 20px;
+	}
+	.info-card .info-card__title {
+		font-size: 20px;
+		margin-bottom: 34px;
+	}
+	.info-card.info-card--large .info-card__title {
+		margin-bottom: 70px;
+	}
+	.info-card .info-card__text {
+		font-size: 14px;
+	}
+	.info-card .info-card__text ul {
+		gap: 4px;
+	}
+}
+@media (max-width: 1440px) {
+	.info-card .info-card__title {
+		font-size: 18px;
+	}
+}
+@media (max-width: 1199px) {
+	.info-card {
+		padding: 47px 15px 15px 15px;
+	}
+	.info-card .info-card__title {
+		margin-bottom: 30px;
+	}
+	.info-card.info-card--large .info-card__title {
+		margin-bottom: 40px;
+	}
+	.info-card .info-card__text br {
+		display: none;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	.info-card {
+		padding: 47px 10px 15px 10px;
+	}
+	.info-card .info-card__title {
+		font-size: 17px;
+	}
+	.info-card .link {
+		font-size: 13px;
+	}
+}
+@media (max-width: 767px) {
+	.info-card .info-card__title {
+		margin-bottom: 35px;
+	}
+	.info-card.info-card--large .info-card__title {
+		margin-bottom: 40px;
+	}
+}
+@media (max-width: 479px) {
+	.info-card {
+		padding: 35px 10px 15px 10px;
+	}
+}

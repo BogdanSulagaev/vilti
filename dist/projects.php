@@ -6,7 +6,7 @@
             <nav class="breadcrumbs fade-in" aria-label="Breadcrumb" role="navigation" itemscope itemtype="https://schema.org/BreadcrumbList">
                 <ol class="breadcrumbs__list">
                     <li class="breadcrumbs__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                        <a class="breadcrumbs__link" href="/" itemprop="item">
+                        <a class="breadcrumbs__link" href="./" itemprop="item">
                             <span itemprop="name">Главная</span>
                         </a>
                         <meta itemprop="position" content="1" />
@@ -20,7 +20,7 @@
                 </ol>
             </nav>
             <div class="head-content fade-in">
-                <h1 class="title title--h2">Бутик резиденций VILTI manor</h1>
+                <h1 class="title title--h2">Бутик резиденций VILTI&nbsp;manor</h1>
                 <div class="projects__head-img"> 
                     <img class="lazyload" src="img/default.png" data-src="img/contacts/mark.svg" alt="img">
                 </div>
@@ -28,6 +28,8 @@
             <div class="residences__filters fade-in">
                 <button class="filters-button">Фильтр</button>
                 <div class="filters">
+                    <button class="filters__close"><img class="lazyload" src="img/default.png" data-src="img/icons/close.svg" alt="img"></button>
+
                     <div class="filter-item range">
                         <label>Площадь</label>
                         <div class="range__inner">
@@ -37,32 +39,35 @@
                         <div id="slider-range"></div>
                     </div>
 
-                    <div class="filter-item select" data-name="roof">
+                    <div class="filter-item select">
                         <label>Крыша</label>
                         <button class="select-btn">Плоская</button>
                         <div class="select-dropdown">
                             <div class="select-dropdown__inner buttons">
                                 <button class="option-btn active">Плоская</button>
                                 <button class="option-btn">Скатная</button>
-                                <button class="option-btn">Мансардная</button>
                             </div>
                         </div>
                     </div>
-
-                    <div class="filter-item select" data-name="rooms" data-multiple="true">
+                    <!-- множественный выбор - data-multiple="true" -->
+                    <div class="filter-item select">
                         <label>Кол-во комнат</label>
-                        <button class="select-btn">8 комнат, 7 комнат, 5 комнат</button>
+                        <button class="select-btn">3</button>
                         <div class="select-dropdown">
                             <div class="select-dropdown__inner buttons">
-                                <button class="option-btn active">5 комнат</button>
-                                <button class="option-btn">6 комнат</button>
-                                <button class="option-btn active">7 комнат</button>
-                                <button class="option-btn active">8 комнат</button>
+                                <button class="option-btn active">3</button>
+                                <button class="option-btn">4</button>
+                                <button class="option-btn">5</button>
+                                <button class="option-btn">6</button>
+                                <button class="option-btn">7</button>
+                                <button class="option-btn">8</button>
+                                <button class="option-btn">9</button>
+                                <button class="option-btn">10</button>
                             </div>
                         </div>
                     </div>
 
-                    <div class="filter-item select" data-name="pool">
+                    <div class="filter-item select">
                         <label>Бассейн</label>
                         <button class="select-btn">Есть</button>
                         <div class="select-dropdown">
@@ -73,14 +78,14 @@
                         </div>
                     </div>
 
-                    <div class="filter-item select" data-name="garage">
+                    <div class="filter-item select">
                         <label>Гараж</label>
-                        <button class="select-btn">Для авто</button>
+                        <button class="select-btn">1 машина</button>
                         <div class="select-dropdown">
                             <div class="select-dropdown__inner buttons">
                                 <button class="option-btn">Нет</button>
-                                <button class="option-btn active">Для авто</button>
-                                <button class="option-btn">На 2 авто</button>
+                                <button class="option-btn active">1 машина</button>
+                                <button class="option-btn">2 машины</button>
                             </div>
                         </div>
                     </div>

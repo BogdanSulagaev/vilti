@@ -1,0 +1,163 @@
+/*architecture-hero*/
+.architecture-hero {
+	position: relative; 
+
+	.architecture-hero__content {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 40px;
+		max-width: 620px;
+		padding-right: 15px;
+		padding-bottom: 75px;
+	}
+	.head-content {
+    gap: calc(var(--padding-medium) - 20px);
+	}
+	.breadcrumbs {
+		margin: 0;
+	}
+	.section-bg__overlay {
+		background: #F8F8F8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    overflow: hidden;
+    border-radius: 4px;
+    z-index: -1;
+	}
+	.architecture-hero__images {
+		position: absolute;
+		top: 20px;
+		bottom: 20px;
+		right: 10px;
+		width: 58%;
+    z-index: 12;
+    display: flex;
+    gap: 15px;
+	}
+	.architecture-hero__image {
+		border: 1px solid #D6D6D6;
+		border-radius: 2px;
+		overflow: hidden;
+
+		img {
+			min-width: 100%;
+			min-height: 100%;
+			object-fit: cover;
+		}
+
+		&:first-child {
+			width: 70%;;
+		}
+		&:last-child {
+			width: calc(30% - 15px);
+
+			img {
+		    object-position: left;
+			}
+		}
+	}
+}
+@media (min-width: 1921px) {
+	.architecture-hero .container {
+		position: relative;
+	}
+	.architecture-hero .architecture-hero__images {
+		top: -25px;
+		right: 30px;
+		max-width: 920px;
+	}
+}
+@media (max-width: 1600px) {
+	.architecture-hero .architecture-hero__content {
+		max-width: 560px;
+		padding-bottom: 65px;
+	}
+	.architecture-hero .architecture-hero__images {
+		width: 56%;
+	}
+}
+@media (max-width: 1440px) {
+	.architecture-hero .architecture-hero__content {
+		max-width: 480px;
+		padding-bottom: 50px;
+		gap: 30px;
+	}
+	.architecture-hero .head-content {
+		gap: 30px;
+	}
+	.architecture-hero .architecture-hero__images {
+		width: 54%;
+	}
+}
+@media (max-width: 1199px) {
+	.architecture-hero .architecture-hero__content {
+		max-width: 430px;
+	}
+	.architecture-hero .architecture-hero__images {
+		width: 50%;
+	}
+}
+@media (max-width: 991px) {
+	.architecture-hero .architecture-hero__images {
+		width: 40%;
+		gap: 10px;
+	}
+	.architecture-hero .architecture-hero__image:first-child {
+		width: 100%;
+	}
+	.architecture-hero .architecture-hero__image:last-child {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.architecture-hero .architecture-hero__content {
+		padding-bottom: 20px;
+		padding-right: 0;
+		max-width: 100%;
+	}
+	.architecture-hero .architecture-hero__images {
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		width: 100%;
+		height: 250px;
+	}
+	.architecture-hero .architecture-hero__image:first-child {
+		width: 60%;
+	}
+	.architecture-hero .architecture-hero__image:last-child {
+		width: calc(40% - 10px);
+		display: block;
+	} 
+	.architecture-hero .head-content {
+		max-width: 460px;
+	}
+	.architecture-hero .section-bg__overlay {
+		left: 0;
+		right: 0;
+	}
+}
+@media (max-width: 479px) {
+	.architecture-hero .architecture-hero__content {
+		padding-top: 10px;
+		gap: 20px;
+	}
+	.architecture-hero .architecture-hero__images {
+		height: 180px;
+		gap: 5px;
+	}
+	.architecture-hero .architecture-hero__image:last-child {
+    width: calc(40% - 5px);
+	}
+	.architecture-hero .head-content {
+		gap: 20px;
+	}
+	.architecture-hero .subtitle {
+		max-width: 300px;
+	}
+}

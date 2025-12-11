@@ -1,0 +1,33 @@
+/*about-second*/
+.about-second {
+	.title {
+		margin-bottom: calc(var(--padding-small) - 10px);
+	}
+	.subtitle {
+		&:last-child {
+			margin-bottom: 0;
+			text-align: right;
+		}
+	}
+}
+@media (max-width: 1440px) {
+	.about-second .title {
+		margin-bottom: 0;
+	}
+	.about-second .head-content {
+		gap: 30px;
+	}
+}
+@media (max-width: 767px) {
+	.about-second .subtitle br {
+		display: none;
+	}
+}
+@media (max-width: 479px) {
+	.about-second .subtitle {
+		font-size: 16px;
+	}
+	.about-second .subtitle:last-child {
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,19 @@
+/*steps-advantages*/
+.steps-advantages {
+	.stats {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 15px;
+	}
+	.stats__item {
+		width: calc((100% - 30px) / 3);
+	}
+}
+@media (max-width: 767px) {
+	.steps-advantages .stats__item {
+		width: 100%;
+	}
+	.steps-advantages .stats {
+		gap: 10px;
+	}
+}

@@ -6,7 +6,7 @@
                 <h2 class="title title--h2 title--mobile">Дом&nbsp;&mdash; это не&nbsp;стены. <br>Это место, где растут дети, <br>собираются близкие <br>и&nbsp;остаётся история семьи</h2>
             </div>
 
-            <div class="promo__details fade-in-up">
+            <a href="./project.php" class="promo__details fade-in-up">
                 <div class="promo__info">
                     <div class="promo__heading">
                         <div class="promo__title">Форнезе</div>
@@ -17,7 +17,7 @@
                 <div class="promo__desc">
                     <p>&laquo;Форнезе&raquo; назван в&nbsp;честь итальянской династии меценатов. Так и&nbsp;дом воплощает ренессансную идею: прочность форм и&nbsp;роскошь пространства.</p>
                 </div>
-            </div>
+            </a>
       </div>
     </div>
     <div class="section-bg__overlay fade-in"></div>

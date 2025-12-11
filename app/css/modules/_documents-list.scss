@@ -45,6 +45,17 @@
 			background-size: contain;
 		}
 	}
+	.documents-list__panel {
+		display: none;
+	}
+	.documents-list__panel.is-active {
+		display: block;
+
+		.fade-in-up {
+			visibility: visible !important;
+    	animation-name: fadeInUp !important;
+		}
+	}
 }
 @media (max-width: 1600px) {
 	.documents-list .documents-list__grid {

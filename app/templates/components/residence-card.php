@@ -138,12 +138,12 @@ if (isset($card_id, $cards[$card_id])) {
             </div>
         </div>
         <div class="residence-card__btn">
-            <button class="button button--primary">
+            <button class="button button--primary" data-toggle="modal" data-target="#modal_consultation">
                 <span class="button__text">Задать вопрос</span>
                 <img class="lazyload" src="img/default.png" data-src="img/icons/arrow-white.svg" alt="img">
             </button>
         </div>
-        <a href="#" class="residence-card__link"></a>
+        <a href="./project.php" class="residence-card__link"></a>
     </div>
     <?php
 }

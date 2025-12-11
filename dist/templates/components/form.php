@@ -24,6 +24,18 @@ $forms = [
         'class'     => 'form__row--3',
         'contacts'  => true
     ],
+    'consult_project' => [
+        'button'    => 'Оставить заявку',
+        'action'    => '#',
+        'class'     => '',
+        'contacts'  => true
+    ],
+    'second_floor_project' => [
+        'button'    => 'Открыть второй этаж',
+        'action'    => '#',
+        'class'     => '',
+        'contacts'  => true
+    ],
 ];
 
 if (isset($form_id) && isset($forms[$form_id])):

@@ -1,0 +1,144 @@
+/*project-plan*/
+.project-plan {
+	.project-plan__wrapper {
+		background: #F8F8F8;
+		padding: 70px 30px 30px;
+	}
+	.head-content {
+		flex-direction: row;
+		align-items: center;
+		gap: 30px;
+		margin-bottom: calc(var(--padding-medium) - 10px);
+	}
+	.subtitle {
+		width: calc(59% - 30px);
+	}
+	.title {
+		width: 41%;
+	}
+	.categories {
+		margin-bottom: 40px;
+	}
+	.project-plan__content {
+		position: relative;
+	}
+	.project-plan__form {
+		position: absolute;
+		top: 20px;
+		left: 20px;
+		max-width: 670px;
+
+		.form__content {
+			padding: 30px 20px;
+		}
+		.form .form__field,
+		.form .form__button {
+			width: calc((100% - 20px) / 3);
+		}
+	}
+	.project-plan__content-image {
+		border: 1px solid #D6D6D6;
+		border-radius: 2px;
+		overflow: hidden;
+		position: relative;
+	}
+	.project-plan__content-image--blur {
+		&::after {
+			content: "";
+			background: #D9D9D903;
+			border: 1px solid #DADADA;
+			backdrop-filter: blur(15px);
+			box-shadow: 0px 5.05px 63.19px 0px #00000026;
+			border-radius: 2px;
+			position: absolute;
+			top: -1px;
+			left: -1px;
+			right: -1px;
+			height: 55%;
+		}
+	}
+	.project-plan__content {
+		display: none;
+
+		&.is-active {
+			display: block;
+		}
+	}
+}
+@media (max-width: 1600px) {
+	.project-plan .project-plan__wrapper {
+		padding: 60px 20px 20px;
+	}
+}
+@media (max-width: 1440px) {
+	.project-plan .head-content {
+		margin-bottom: 30px;
+	}
+	.project-plan .categories {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 1199px) {
+	.project-plan .head-content {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.project-plan .title {
+		width: 100%;
+	}
+	.project-plan .subtitle {
+		width: 100%;
+	}
+	.project-plan .project-plan__form .form__content {
+    padding: 20px 15px;
+	}
+	.project-plan .project-plan__form {
+		max-width: 600px;
+	}
+}
+@media (min-width: 768px) {
+	.project-plan .form__content-contacts {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	.project-plan .project-plan__wrapper {
+		padding: 50px 15px 15px;
+	}
+	.project-plan .project-plan__form {
+		position: relative;
+		top: auto;
+		left: auto;
+		max-width: none;
+	}
+	.project-plan .project-plan__form .form .form__field, .project-plan .project-plan__form .form .form__button {
+		width: 100%;
+	}
+	.project-plan .project-plan__form .form__content {
+		padding: 30px 15px;
+	}
+}
+@media (max-width: 479px) {
+	.project-plan .project-plan__wrapper {
+		padding: 40px 10px;
+	}
+	.project-plan .container {
+		padding: 0;
+	}
+	.project-plan .categories .categories__item {
+		width: auto;
+		padding: 0 13px;
+	}
+	.project-plan .subtitle {
+		display: none;
+	}
+	.project-plan .head-content {
+		margin-bottom: 20px;
+	}
+	.project-plan .project-plan__form .form__content {
+		padding: 30px 10px;
+	}
+	.project-plan .project-plan__form {
+		margin: 0 -10px;
+	}
+}

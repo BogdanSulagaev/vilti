@@ -40,7 +40,7 @@ $vacancies = [
                                 <div class="vacancies__details-inner">
                                     <?= $vacancy['content'] ?>
                                     <div class="vacancies__details-prices">от<span class="vacancies__details-price"><?= $vacancy['price'] ?></span>₽</div>
-                                    <button class="button button--primary">
+                                    <button class="button button--primary" data-toggle="modal" data-target="#modal_consultation">
                                         <span class="button__text">Откликнуться</span>
                                     </button>
                                 </div>
