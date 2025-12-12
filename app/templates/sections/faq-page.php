@@ -34,31 +34,58 @@
             <div class="faq__panel is-active">
                 <div class="faq__grid">
                     <?php
-                    $faq_id = 1;
+                    $faq_id = 10;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 2;
+                    $faq_id = 11;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 3;
+                    $faq_id = 12;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 4;
+                    $faq_id = 13;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 5;
+                    $faq_id = 14;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 6;
+                    $faq_id = 15;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 7;
+                    $faq_id = 16;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 8;
+                    $faq_id = 17;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 9;
+                    ?>
+                </div>
+            </div>
+            <div class="faq__panel">
+                <div class="faq__grid">
+                    <?php
+                    $faq_id = 10;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 11;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 12;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 13;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 14;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 15;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 16;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 17;
                     include('templates/components/faq-item.php'); 
                     ?>
                 </div>
@@ -66,25 +93,28 @@
             <div class="faq__panel">
                 <div class="faq__grid">
                     <?php
-                    $faq_id = 2;
+                    $faq_id = 10;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 3;
+                    $faq_id = 11;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 4;
+                    $faq_id = 12;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 5;
+                    $faq_id = 13;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 6;
+                    $faq_id = 14;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 7;
+                    $faq_id = 15;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 8;
+                    $faq_id = 16;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 17;
                     include('templates/components/faq-item.php'); 
                     ?>
                 </div>
@@ -92,59 +122,57 @@
             <div class="faq__panel">
                 <div class="faq__grid">
                     <?php
-                    $faq_id = 3;
+                    $faq_id = 10;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 4;
+                    $faq_id = 11;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 5;
+                    $faq_id = 12;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 6;
+                    $faq_id = 13;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 7;
+                    $faq_id = 14;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 8;
+                    $faq_id = 15;
                     include('templates/components/faq-item.php'); 
+
+                    $faq_id = 16;
+                    include('templates/components/faq-item.php'); 
+
+                    $faq_id = 17;
+                    include('templates/components/faq-item.php');  
                     ?>
                 </div>
             </div>
             <div class="faq__panel">
                 <div class="faq__grid">
                     <?php
-                    $faq_id = 4;
+                    $faq_id = 10;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 5;
+                    $faq_id = 11;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 6;
+                    $faq_id = 12;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 7;
+                    $faq_id = 13;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 8;
-                    include('templates/components/faq-item.php'); 
-                    ?>
-                </div>
-            </div>
-            <div class="faq__panel">
-                <div class="faq__grid">
-                    <?php
-                    $faq_id = 5;
+                    $faq_id = 14;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 6;
+                    $faq_id = 15;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 7;
+                    $faq_id = 16;
                     include('templates/components/faq-item.php'); 
 
-                    $faq_id = 8;
+                    $faq_id = 17;
                     include('templates/components/faq-item.php'); 
                     ?>
                 </div>
